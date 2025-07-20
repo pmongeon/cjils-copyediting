@@ -20,6 +20,149 @@
     ]
   },
   {
+    "objectID": "general.html",
+    "href": "general.html",
+    "title": "Overview",
+    "section": "",
+    "text": "Introduction",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "general.html#manuscript-submission",
+    "href": "general.html#manuscript-submission",
+    "title": "Overview",
+    "section": "Manuscript submission",
+    "text": "Manuscript submission",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "general.html#peer-review",
+    "href": "general.html#peer-review",
+    "title": "Overview",
+    "section": "Peer-review",
+    "text": "Peer-review",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "general.html#copyediting",
+    "href": "general.html#copyediting",
+    "title": "Overview",
+    "section": "Copyediting",
+    "text": "Copyediting\n\nAccepting an invitation to copyedit a manuscript\n\n\nAccessing the\n\n\n#",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "general.html#production",
+    "href": "general.html#production",
+    "title": "Overview",
+    "section": "Production",
+    "text": "Production",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "general.html#publication",
+    "href": "general.html#publication",
+    "title": "Overview",
+    "section": "Publication",
+    "text": "Publication",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "ojs.html",
+    "href": "ojs.html",
+    "title": "Open Journal System",
+    "section": "",
+    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Open Journal System"
+    ]
+  },
+  {
+    "objectID": "overleaf.html",
+    "href": "overleaf.html",
+    "title": "Overleaf",
+    "section": "",
+    "text": "Upcoming….",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overleaf"
+    ]
+  },
+  {
+    "objectID": "checklist.html",
+    "href": "checklist.html",
+    "title": "Checklist",
+    "section": "",
+    "text": "Upcoming…",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Checklist"
+    ]
+  },
+  {
+    "objectID": "header.html",
+    "href": "header.html",
+    "title": "Header",
+    "section": "",
+    "text": "First page header\nThe first page header contains the following information\ntest ### Document type",
+    "crumbs": [
+      "LaTeX",
+      "Header"
+    ]
+  },
+  {
+    "objectID": "header.html#first-page-header",
+    "href": "header.html#first-page-header",
+    "title": "Header",
+    "section": "",
+    "text": "The journal title in both language and capitalized (should already be in the template).\nThe volume number\nThe issue number\nDOI\nDocument type\n\n\\journal{\\scriptsize{The Canadian Journal of Information and Library Science - La Revue canadienne des sciences de l'information et de bibliothéconomie (CJILS-RCSIB)}}\n\\volume{\\scriptsize{Vol. vv, No. i (yyyy) \n\\\\ \nDOI: 10.5206/cjils-rcsib.v--i-.-----\n\\\\ \n\\textbf{\\textit{Conference paper}}}} % Document type",
+    "crumbs": [
+      "LaTeX",
+      "Header"
+    ]
+  },
+  {
+    "objectID": "header.html#running-head",
+    "href": "header.html#running-head",
+    "title": "Header",
+    "section": "Running Head",
+    "text": "Running Head\n\nOdd Pages\ngfsdfgd\n\\shorttitle{CJILS/RCSIB Vol. 47, No. 2 (2024). DOI: 10.5206/cjils-rcsib.v-i--.--}\n\n\nEven Pages\ngdfg\n\\leftheader{Lastname and Lastname}\ntest",
+    "crumbs": [
+      "LaTeX",
+      "Header"
+    ]
+  },
+  {
+    "objectID": "header.html#summary",
+    "href": "header.html#summary",
+    "title": "Header",
+    "section": "Summary",
+    "text": "Summary",
+    "crumbs": [
+      "LaTeX",
+      "Header"
+    ]
+  },
+  {
     "objectID": "title-page.html",
     "href": "title-page.html",
     "title": "Title page",
@@ -108,47 +251,245 @@
     ]
   },
   {
-    "objectID": "header.html",
-    "href": "header.html",
-    "title": "Header",
+    "objectID": "main.html",
+    "href": "main.html",
+    "title": "Main text",
     "section": "",
-    "text": "First page header\nThe first page header contains the following information\ntest ### Document type",
+    "text": "Overview",
     "crumbs": [
       "LaTeX",
-      "Header"
+      "Main text"
     ]
   },
   {
-    "objectID": "header.html#first-page-header",
-    "href": "header.html#first-page-header",
-    "title": "Header",
+    "objectID": "main.html#sections",
+    "href": "main.html#sections",
+    "title": "Main text",
+    "section": "Sections",
+    "text": "Sections",
+    "crumbs": [
+      "LaTeX",
+      "Main text"
+    ]
+  },
+  {
+    "objectID": "main.html#paragraphs",
+    "href": "main.html#paragraphs",
+    "title": "Main text",
+    "section": "Paragraphs",
+    "text": "Paragraphs",
+    "crumbs": [
+      "LaTeX",
+      "Main text"
+    ]
+  },
+  {
+    "objectID": "main.html#lists",
+    "href": "main.html#lists",
+    "title": "Main text",
+    "section": "Lists",
+    "text": "Lists\n\nBullet points\n\n\nNumbered lists\n\n\nSpacing between list items",
+    "crumbs": [
+      "LaTeX",
+      "Main text"
+    ]
+  },
+  {
+    "objectID": "main.html#footnotes",
+    "href": "main.html#footnotes",
+    "title": "Main text",
+    "section": "Footnotes",
+    "text": "Footnotes",
+    "crumbs": [
+      "LaTeX",
+      "Main text"
+    ]
+  },
+  {
+    "objectID": "main.html#citations",
+    "href": "main.html#citations",
+    "title": "Main text",
+    "section": "Citations",
+    "text": "Citations",
+    "crumbs": [
+      "LaTeX",
+      "Main text"
+    ]
+  },
+  {
+    "objectID": "main.html#quotes",
+    "href": "main.html#quotes",
+    "title": "Main text",
+    "section": "Quotes",
+    "text": "Quotes\n\nShort quotes\n\n\nLong quotes",
+    "crumbs": [
+      "LaTeX",
+      "Main text"
+    ]
+  },
+  {
+    "objectID": "main.html#hyperlinks",
+    "href": "main.html#hyperlinks",
+    "title": "Main text",
+    "section": "Hyperlinks",
+    "text": "Hyperlinks",
+    "crumbs": [
+      "LaTeX",
+      "Main text"
+    ]
+  },
+  {
+    "objectID": "main.html#spelling",
+    "href": "main.html#spelling",
+    "title": "Main text",
+    "section": "Spelling",
+    "text": "Spelling",
+    "crumbs": [
+      "LaTeX",
+      "Main text"
+    ]
+  },
+  {
+    "objectID": "figures.html",
+    "href": "figures.html",
+    "title": "Figures",
     "section": "",
-    "text": "The journal title in both language and capitalized (should already be in the template).\nThe volume number\nThe issue number\nDOI\nDocument type\n\n\\journal{\\scriptsize{The Canadian Journal of Information and Library Science - La Revue canadienne des sciences de l'information et de bibliothéconomie (CJILS-RCSIB)}}\n\\volume{\\scriptsize{Vol. vv, No. i (yyyy) \n\\\\ \nDOI: 10.5206/cjils-rcsib.v--i-.-----\n\\\\ \n\\textbf{\\textit{Conference paper}}}} % Document type",
+    "text": "Upcoming…",
     "crumbs": [
       "LaTeX",
-      "Header"
+      "Figures"
     ]
   },
   {
-    "objectID": "header.html#running-head",
-    "href": "header.html#running-head",
-    "title": "Header",
-    "section": "Running Head",
-    "text": "Running Head\n\nOdd Pages\ngfsdfgd\n\\shorttitle{CJILS/RCSIB Vol. 47, No. 2 (2024). DOI: 10.5206/cjils-rcsib.v-i--.--}\n\n\nEven Pages\ngdfg\n\\leftheader{Lastname and Lastname}\ntest",
+    "objectID": "tables.html",
+    "href": "tables.html",
+    "title": "Tables",
+    "section": "",
+    "text": "One vs two column tables",
     "crumbs": [
       "LaTeX",
-      "Header"
+      "Tables"
     ]
   },
   {
-    "objectID": "header.html#summary",
-    "href": "header.html#summary",
-    "title": "Header",
-    "section": "Summary",
-    "text": "Summary",
+    "objectID": "tables.html#one-vs-two-column-tables",
+    "href": "tables.html#one-vs-two-column-tables",
+    "title": "Tables",
+    "section": "",
+    "text": "Single Column Table\n\\begin{table}\n  \\begin{tabular}\n  \\end{tabular}\n\\end{table}\n\n\nTwo-Column Table\n\\begin{table*}\n  \\begin{tabularx}\n  \\end{tabularx}\n\\end{table*}\n\n\nLong Tables\n\nsingle column\n\n\n\nTwo column\n\\begin{table*}\n  \\begin{longtable}\n  \\end{longtable}\n\\end{table*}",
     "crumbs": [
       "LaTeX",
-      "Header"
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#table-position",
+    "href": "tables.html#table-position",
+    "title": "Tables",
+    "section": "Table Position",
+    "text": "Table Position\nLaTeX will not always put your table exactly where you placed it in the text due to its internal layout rules. If the default position is not ideal, you can attempt giving LaTeX some instructions to better position the table.\nIf you’re happy with the table placement, you don’t have to do anything.\n\nSpecifiers\n\n\n\n\n\n\n\nSpecifier\nMeaning\n\n\n\n\nh\nPlace the table here, roughly at the current location\n\n\nt\nPlace the table at the top of the page\n\n\nb\nPlace the table at the bottom of the page\n\n\np\nPlace the table on a separate page for floats only\n\n\n!\nOverride LaTeX’s internal float placement rules\n\n\nH\nPlace the table exactly here (requires float package)\n\n\n\n\n\nExample\n\\begin{table*}\n  \\begin{longtable}\n  \\end{longtable}\n\\end{table*}\n\n\nTips and tricks\n\nYou can combine them (e.g.,[htbp!] )to give LaTeX flexibility while nudging it toward your preferred location.\nIt is recommended not to use [h] alone, as it can sometimes be ignored. Prefer [ht] or [htbp].\n\n\n\n\n\n\n\nDo not fight LaTeX\n\n\n\nOften, you might find that latex is not at all cooperating with you when it comes to positioning tables. My advice is to not die on that hill. Your table is showing up somewhere in the document. It looks good, but it’s not where you want it, so you spend a few minutes trying different strategies to move it to a better spot. No luck? Just move on.",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#caption",
+    "href": "tables.html#caption",
+    "title": "Tables",
+    "section": "Caption",
+    "text": "Caption\nThe caption is the first element in the table.\n\\caption{\\label{tbl-mytable}\\textit{title of the table goes here}}",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#columns",
+    "href": "tables.html#columns",
+    "title": "Tables",
+    "section": "Columns",
+    "text": "Columns\n\\begin{tabularx}{\\textwidth}{%\n  &gt;{\\raggedright\\arraybackslash}p{1.5in} \n  &gt;{\\raggedright\\arraybackslash}p{2.5in}\n  &gt;{\\raggedleft\\arraybackslash}p{2.5in} \n}\n\nAlignment\n\n\nColumn width\n{\\textwidth}\np{1.5in}",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#rows",
+    "href": "tables.html#rows",
+    "title": "Tables",
+    "section": "Rows",
+    "text": "Rows",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#borders",
+    "href": "tables.html#borders",
+    "title": "Tables",
+    "section": "Borders",
+    "text": "Borders",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#notes",
+    "href": "tables.html#notes",
+    "title": "Tables",
+    "section": "Notes",
+    "text": "Notes",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#layout",
+    "href": "tables.html#layout",
+    "title": "Tables",
+    "section": "Layout",
+    "text": "Layout",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#tips-and-tricks-1",
+    "href": "tables.html#tips-and-tricks-1",
+    "title": "Tables",
+    "section": "Tips and tricks",
+    "text": "Tips and tricks\n\nCopy pasting from Word\n\n\nCopilot",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "upcoming….",
+    "crumbs": [
+      "LaTeX",
+      "References"
+    ]
+  },
+  {
+    "objectID": "appendices.html",
+    "href": "appendices.html",
+    "title": "Appendices",
+    "section": "",
+    "text": "Upcoming…",
+    "crumbs": [
+      "LaTeX",
+      "Appendices"
     ]
   }
 ]
