@@ -1,0 +1,38 @@
+{
+  "index.qmd": {
+    "index.html": "1be017d3"
+  },
+  "general.qmd": {
+    "general.html": "11c74fec"
+  },
+  "ojs.qmd": {
+    "ojs.html": "0a57af16"
+  },
+  "overleaf.qmd": {
+    "overleaf.html": "5669a674"
+  },
+  "checklist.qmd": {
+    "checklist.html": "4811b7a5"
+  },
+  "header.qmd": {
+    "header.html": "b987d4bd"
+  },
+  "title-page.qmd": {
+    "title-page.html": "3b2bfb4f"
+  },
+  "main.qmd": {
+    "main.html": "a2662884"
+  },
+  "figures.qmd": {
+    "figures.html": "01820914"
+  },
+  "tables.qmd": {
+    "tables.html": "3b37a0c3"
+  },
+  "references.qmd": {
+    "references.html": "a5bf7947"
+  },
+  "appendices.qmd": {
+    "appendices.html": "2557d93b"
+  }
+}

@@ -1,0 +1,48 @@
+# Header {.unnumbered}
+
+## First page header
+
+The first page header contains the following information
+
+-   The journal title in both language and capitalized (should already be in the template).
+-   The volume number
+-   The issue number
+-   DOI
+-   Document type
+
+```{latex}
+\journal{\scriptsize{The Canadian Journal of Information and Library Science - La Revue canadienne des sciences de l'information et de bibliothéconomie (CJILS-RCSIB)}}
+\volume{\scriptsize{Vol. vv, No. i (yyyy) 
+\\ 
+DOI: 10.5206/cjils-rcsib.v--i-.-----
+\\ 
+\textbf{\textit{Conference paper}}}} % Document type 
+
+```
+
+test 
+### Document type
+
+## Running Head
+
+### Odd Pages
+
+gfsdfgd
+
+```{latex}
+\shorttitle{CJILS/RCSIB Vol. 47, No. 2 (2024). DOI: 10.5206/cjils-rcsib.v-i--.--}
+
+```
+
+### Even Pages
+
+gdfg
+
+```{latex}
+\leftheader{Lastname and Lastname}
+
+```
+
+test 
+
+## Summary

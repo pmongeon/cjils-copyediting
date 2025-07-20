@@ -1,0 +1,154 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CJILS Copyediting and Layout Manual",
+    "section": "",
+    "text": "Introduction\nWelcome to the official guide for supporting the copyediting process of manuscripts submitted to the Canadian Journal of Information and Library Science (CJILS). This resource is designed to assist the journal editors, managers, and copyeditors editors in preparing CJILS articles for publication—ensuring clarity, consistency, and compliance with journal style.\nWhether you’re a seasoned language professional or newly joining the CJILS editorial workflow, this guide provides step-by-step instructions, templates, checklists, and formatting support tailored to the specific needs of our journal.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#contents",
+    "href": "index.html#contents",
+    "title": "CJILS Copyediting and Layout Manual",
+    "section": "Contents",
+    "text": "Contents\n\nSection 1. Copyediting Process and Tools\n\nOverview\nOpen Journal System (OJS)\nOverleaf\nChecklist\n\n\n\nSection 2. LaTeX guide\n\nHeader\nTitle Page\nMain Text\nFigures\nTables\nReferences\nAppendices",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "title-page.html",
+    "href": "title-page.html",
+    "title": "Title page",
+    "section": "",
+    "text": "Title",
+    "crumbs": [
+      "LaTeX",
+      "Title page"
+    ]
+  },
+  {
+    "objectID": "title-page.html#abstract",
+    "href": "title-page.html#abstract",
+    "title": "Title page",
+    "section": "Abstract",
+    "text": "Abstract",
+    "crumbs": [
+      "LaTeX",
+      "Title page"
+    ]
+  },
+  {
+    "objectID": "title-page.html#keywords",
+    "href": "title-page.html#keywords",
+    "title": "Title page",
+    "section": "Keywords",
+    "text": "Keywords",
+    "crumbs": [
+      "LaTeX",
+      "Title page"
+    ]
+  },
+  {
+    "objectID": "title-page.html#authors",
+    "href": "title-page.html#authors",
+    "title": "Title page",
+    "section": "Authors",
+    "text": "Authors",
+    "crumbs": [
+      "LaTeX",
+      "Title page"
+    ]
+  },
+  {
+    "objectID": "title-page.html#orcid",
+    "href": "title-page.html#orcid",
+    "title": "Title page",
+    "section": "ORCID",
+    "text": "ORCID",
+    "crumbs": [
+      "LaTeX",
+      "Title page"
+    ]
+  },
+  {
+    "objectID": "title-page.html#affiliations",
+    "href": "title-page.html#affiliations",
+    "title": "Title page",
+    "section": "Affiliations",
+    "text": "Affiliations",
+    "crumbs": [
+      "LaTeX",
+      "Title page"
+    ]
+  },
+  {
+    "objectID": "title-page.html#authors-with-multiple-affiliations",
+    "href": "title-page.html#authors-with-multiple-affiliations",
+    "title": "Title page",
+    "section": "Authors with Multiple Affiliations",
+    "text": "Authors with Multiple Affiliations",
+    "crumbs": [
+      "LaTeX",
+      "Title page"
+    ]
+  },
+  {
+    "objectID": "title-page.html#corresponding-author",
+    "href": "title-page.html#corresponding-author",
+    "title": "Title page",
+    "section": "Corresponding Author",
+    "text": "Corresponding Author",
+    "crumbs": [
+      "LaTeX",
+      "Title page"
+    ]
+  },
+  {
+    "objectID": "header.html",
+    "href": "header.html",
+    "title": "Header",
+    "section": "",
+    "text": "First page header\nThe first page header contains the following information\ntest ### Document type",
+    "crumbs": [
+      "LaTeX",
+      "Header"
+    ]
+  },
+  {
+    "objectID": "header.html#first-page-header",
+    "href": "header.html#first-page-header",
+    "title": "Header",
+    "section": "",
+    "text": "The journal title in both language and capitalized (should already be in the template).\nThe volume number\nThe issue number\nDOI\nDocument type\n\n\\journal{\\scriptsize{The Canadian Journal of Information and Library Science - La Revue canadienne des sciences de l'information et de bibliothéconomie (CJILS-RCSIB)}}\n\\volume{\\scriptsize{Vol. vv, No. i (yyyy) \n\\\\ \nDOI: 10.5206/cjils-rcsib.v--i-.-----\n\\\\ \n\\textbf{\\textit{Conference paper}}}} % Document type",
+    "crumbs": [
+      "LaTeX",
+      "Header"
+    ]
+  },
+  {
+    "objectID": "header.html#running-head",
+    "href": "header.html#running-head",
+    "title": "Header",
+    "section": "Running Head",
+    "text": "Running Head\n\nOdd Pages\ngfsdfgd\n\\shorttitle{CJILS/RCSIB Vol. 47, No. 2 (2024). DOI: 10.5206/cjils-rcsib.v-i--.--}\n\n\nEven Pages\ngdfg\n\\leftheader{Lastname and Lastname}\ntest",
+    "crumbs": [
+      "LaTeX",
+      "Header"
+    ]
+  },
+  {
+    "objectID": "header.html#summary",
+    "href": "header.html#summary",
+    "title": "Header",
+    "section": "Summary",
+    "text": "Summary",
+    "crumbs": [
+      "LaTeX",
+      "Header"
+    ]
+  }
+]
