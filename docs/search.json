@@ -57,7 +57,7 @@
     "href": "general.html#copyediting",
     "title": "Overview",
     "section": "Copyediting",
-    "text": "Copyediting\n\nAccepting an invitation to copyedit a manuscript\n\n\nAccessing the\n\n\n#",
+    "text": "Copyediting",
     "crumbs": [
       "Copyediting Process and Tools",
       "Overview"
@@ -90,7 +90,7 @@
     "href": "ojs.html",
     "title": "Open Journal System",
     "section": "",
-    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "text": "Upcoming…",
     "crumbs": [
       "Copyediting Process and Tools",
       "Open Journal System"
@@ -123,7 +123,7 @@
     "href": "header.html",
     "title": "Header",
     "section": "",
-    "text": "First page header\nThe first page header contains the following information\ntest ### Document type",
+    "text": "First page header\nThe first page header contains the following information",
     "crumbs": [
       "LaTeX",
       "Header"
@@ -145,7 +145,7 @@
     "href": "header.html#running-head",
     "title": "Header",
     "section": "Running Head",
-    "text": "Running Head\n\nOdd Pages\ngfsdfgd\n\\shorttitle{CJILS/RCSIB Vol. 47, No. 2 (2024). DOI: 10.5206/cjils-rcsib.v-i--.--}\n\n\nEven Pages\ngdfg\n\\leftheader{Lastname and Lastname}\ntest",
+    "text": "Running Head\n\nOdd Pages\n\\shorttitle{CJILS/RCSIB Vol. 47, No. 2 (2024). DOI: 10.5206/cjils-rcsib.v-i--.--}\n\n\nEven Pages\n\\leftheader{Lastname and Lastname}",
     "crumbs": [
       "LaTeX",
       "Header"
