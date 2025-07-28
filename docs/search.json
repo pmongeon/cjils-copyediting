@@ -376,7 +376,7 @@
     "href": "tables.html#one-vs-two-column-tables",
     "title": "Tables",
     "section": "",
-    "text": "Single Column Table\n\\begin{table}\n  \\begin{tabular}\n  \\end{tabular}\n\\end{table}\n\n\nTwo-Column Table\n\\begin{table*}\n  \\begin{tabularx}\n  \\end{tabularx}\n\\end{table*}\n\n\nLong Tables\n\nsingle column\n\n\n\nTwo column\n\\begin{table*}\n  \\begin{longtable}\n  \\end{longtable}\n\\end{table*}",
+    "text": "Single Column Table\n\\begin{table}\n  \\begin{tabular}\n  \\end{tabular}\n\\end{table}\n\n\nTwo-Column Table\n\\begin{table*}\n  \\begin{tabularx}\n  \\end{tabularx}\n\\end{table*}\n\n\nLong Tables\n\nTwo column\n\\begin{table*}\n  \\begin{longtable}\n  \\end{longtable}\n\\end{table*}",
     "crumbs": [
       "LaTeX",
       "Tables"
@@ -409,7 +409,7 @@
     "href": "tables.html#columns",
     "title": "Tables",
     "section": "Columns",
-    "text": "Columns\n\\begin{tabularx}{\\textwidth}{%\n  &gt;{\\raggedright\\arraybackslash}p{1.5in} \n  &gt;{\\raggedright\\arraybackslash}p{2.5in}\n  &gt;{\\raggedleft\\arraybackslash}p{2.5in} \n}\n\nAlignment\n\n\nColumn width\n{\\textwidth}\np{1.5in}",
+    "text": "Columns\n\\begin{tabularx}{\\textwidth}{%\n  &gt;{\\raggedright\\arraybackslash}p{1.5in} \n  &gt;{\\raggedright\\arraybackslash}p{2.5in}\n  &gt;{\\raggedleft\\arraybackslash}p{2.5in} \n}\n\nAlignment\n\nleft: \\raggedright\\arraybackslash\ncenter: \\centeringt\\arraybackslash\nright: \\raggedleftt\\arraybackslash\n\n\n\nColumn width\nthe {\\textwidth} part of the code above ensures sets your table to cover the whole horizontal space it has available.\nThe dimentions indicated in the format p{1.5in} is the part that actually sets the width of the column. You should make sure that the column width is optimal for the content, and that the total of all the column width is equal to the witdth of the horizontal space availabe.\nFor single column table, the total available space is 8.65cm or 3.41in. For a two-column table, the total available space is about 16.51cm or 6.5in. As you can see in the latex code above, the total for the three column is actually 6.5 inches because the table is spanning two columns (as indicated by the use of tabularx.",
     "crumbs": [
       "LaTeX",
       "Tables"
@@ -420,7 +420,7 @@
     "href": "tables.html#rows",
     "title": "Tables",
     "section": "Rows",
-    "text": "Rows",
+    "text": "Rows\n\nEach cell is separated by an ampersand (&).\nEach row ends with two backslashes (linebreak): \\\\\n\nHere is an example.\nfirst cell content & second cell content & third cell content \\\\",
     "crumbs": [
       "LaTeX",
       "Tables"
@@ -431,7 +431,7 @@
     "href": "tables.html#borders",
     "title": "Tables",
     "section": "Borders",
-    "text": "Borders",
+    "text": "Borders\n\n\\toprule for the boder at the top of the table.\n\\midrule for the border below the header row.\n\\bottomrule for the border at the end of the table.\n\nHere is an example. Note that the \\textbf{} is used to make the column header bold, which is the standard practice for CJILS manuscript.\n\\toprule\n\\textbf{First name} & \\textbf{Last name} & \\textbf{Date of birth} \\\\\n\\midrule\nJohn & Smith & July 14, 1975 \\\\\nMary & Robinson & March 6, 1979 \\\\\n\\bottomrule",
     "crumbs": [
       "LaTeX",
       "Tables"
@@ -442,7 +442,7 @@
     "href": "tables.html#notes",
     "title": "Tables",
     "section": "Notes",
-    "text": "Notes",
+    "text": "Notes\nAdding footnotes to a table is done manually, by adding the a superscript in the cell that will refer to the note, and then adding a row that spans all columns at the end of the table. Note that the \\\\[-1.75ex] is there to add a small space between the last column and the footnote.\n\\toprule\n\\textbf{First name} & \\textbf{Last name} & \\textbf{Date of birth}\n\\bottomrule\\textit{\\textsuperscript{*}} \\\\\n\\midrule\nJohn & Smith & July 14, 1975 \\\\\nMary & Robinson & March 6, 1979 \\\\\n\\bottomrule\n\\\\[-1.75ex]\n\\multicolumn{3}{l}{\\textsuperscript{*}This is a table not related to the date of birth column.} \\\\",
     "crumbs": [
       "LaTeX",
       "Tables"
@@ -490,6 +490,28 @@
     "crumbs": [
       "LaTeX",
       "Appendices"
+    ]
+  },
+  {
+    "objectID": "tables.html#linebreak-after-caption",
+    "href": "tables.html#linebreak-after-caption",
+    "title": "Tables",
+    "section": "Linebreak after caption",
+    "text": "Linebreak after caption\nAdd \\tabularnewline before you start adding rows to the table. Like this.\n\n  &gt;{\\raggedright\\arraybackslash}p{1.5in} \n  &gt;{\\raggedright\\arraybackslash}p{2.5in}\n  &gt;{\\raggedleft\\arraybackslash}p{2.5in} \n}\n\\tabularnewline",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#merging-rows-and-columns",
+    "href": "tables.html#merging-rows-and-columns",
+    "title": "Tables",
+    "section": "Merging rows and columns",
+    "text": "Merging rows and columns\n\nMerging columns\n\n\nMerging rows",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
     ]
   }
 ]

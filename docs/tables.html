@@ -262,10 +262,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#alignment" id="toc-alignment" class="nav-link" data-scroll-target="#alignment">Alignment</a></li>
   <li><a href="#column-width" id="toc-column-width" class="nav-link" data-scroll-target="#column-width">Column width</a></li>
   </ul></li>
+  <li><a href="#linebreak-after-caption" id="toc-linebreak-after-caption" class="nav-link" data-scroll-target="#linebreak-after-caption">Linebreak after caption</a></li>
   <li><a href="#rows" id="toc-rows" class="nav-link" data-scroll-target="#rows">Rows</a></li>
   <li><a href="#borders" id="toc-borders" class="nav-link" data-scroll-target="#borders">Borders</a></li>
+  <li><a href="#merging-rows-and-columns" id="toc-merging-rows-and-columns" class="nav-link" data-scroll-target="#merging-rows-and-columns">Merging rows and columns</a>
+  <ul class="collapse">
+  <li><a href="#merging-columns" id="toc-merging-columns" class="nav-link" data-scroll-target="#merging-columns">Merging columns</a></li>
+  <li><a href="#merging-rows" id="toc-merging-rows" class="nav-link" data-scroll-target="#merging-rows">Merging rows</a></li>
+  </ul></li>
   <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
-  <li><a href="#layout" id="toc-layout" class="nav-link" data-scroll-target="#layout">Layout</a></li>
   <li><a href="#tips-and-tricks-1" id="toc-tips-and-tricks-1" class="nav-link" data-scroll-target="#tips-and-tricks-1">Tips and tricks</a>
   <ul class="collapse">
   <li><a href="#copy-pasting-from-word" id="toc-copy-pasting-from-word" class="nav-link" data-scroll-target="#copy-pasting-from-word">Copy pasting from Word</a></li>
@@ -314,16 +319,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="long-tables" class="level3">
 <h3 class="anchored" data-anchor-id="long-tables">Long Tables</h3>
-<section id="single-column" class="level4">
-<h4 class="anchored" data-anchor-id="single-column">single column</h4>
-<pre><code></code></pre>
-</section>
 <section id="two-column" class="level4">
 <h4 class="anchored" data-anchor-id="two-column">Two column</h4>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1"><a href="#cb4-1"></a>\begin{table*}</span>
-<span id="cb4-2"><a href="#cb4-2"></a>  \begin{longtable}</span>
-<span id="cb4-3"><a href="#cb4-3"></a>  \end{longtable}</span>
-<span id="cb4-4"><a href="#cb4-4"></a>\end{table*}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1"><a href="#cb3-1"></a>\begin{table*}</span>
+<span id="cb3-2"><a href="#cb3-2"></a>  \begin{longtable}</span>
+<span id="cb3-3"><a href="#cb3-3"></a>  \end{longtable}</span>
+<span id="cb3-4"><a href="#cb3-4"></a>\end{table*}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
 </section>
@@ -335,8 +336,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="specifiers">Specifiers</h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 15%">
-<col style="width: 84%">
+<col style="width: 16%">
+<col style="width: 83%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -374,10 +375,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="example" class="level3">
 <h3 class="anchored" data-anchor-id="example">Example</h3>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1"><a href="#cb5-1"></a>\begin{table*}</span>
-<span id="cb5-2"><a href="#cb5-2"></a>  \begin{longtable}</span>
-<span id="cb5-3"><a href="#cb5-3"></a>  \end{longtable}</span>
-<span id="cb5-4"><a href="#cb5-4"></a>\end{table*}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1"><a href="#cb4-1"></a>\begin{table*}</span>
+<span id="cb4-2"><a href="#cb4-2"></a>  \begin{longtable}</span>
+<span id="cb4-3"><a href="#cb4-3"></a>  \end{longtable}</span>
+<span id="cb4-4"><a href="#cb4-4"></a>\end{table*}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="tips-and-tricks" class="level3">
 <h3 class="anchored" data-anchor-id="tips-and-tricks">Tips and tricks</h3>
@@ -403,35 +404,85 @@ Do not fight LaTeX
 <section id="caption" class="level2">
 <h2 class="anchored" data-anchor-id="caption">Caption</h2>
 <p>The caption is the first element in the table.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a href="#cb6-1"></a>\caption{\label{tbl-mytable}\textit{title of the table goes here}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1"><a href="#cb5-1"></a>\caption{\label{tbl-mytable}\textit{title of the table goes here}}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="columns" class="level2">
 <h2 class="anchored" data-anchor-id="columns">Columns</h2>
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb7-1"><a href="#cb7-1"></a>\begin{tabularx}{\textwidth}{%</span>
-<span id="cb7-2"><a href="#cb7-2"></a>  &gt;{\raggedright\arraybackslash}p{1.5in} </span>
-<span id="cb7-3"><a href="#cb7-3"></a>  &gt;{\raggedright\arraybackslash}p{2.5in}</span>
-<span id="cb7-4"><a href="#cb7-4"></a>  &gt;{\raggedleft\arraybackslash}p{2.5in} </span>
-<span id="cb7-5"><a href="#cb7-5"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a href="#cb6-1"></a>\begin{tabularx}{\textwidth}{%</span>
+<span id="cb6-2"><a href="#cb6-2"></a>  &gt;{\raggedright\arraybackslash}p{1.5in} </span>
+<span id="cb6-3"><a href="#cb6-3"></a>  &gt;{\raggedright\arraybackslash}p{2.5in}</span>
+<span id="cb6-4"><a href="#cb6-4"></a>  &gt;{\raggedleft\arraybackslash}p{2.5in} </span>
+<span id="cb6-5"><a href="#cb6-5"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <section id="alignment" class="level3">
 <h3 class="anchored" data-anchor-id="alignment">Alignment</h3>
+<ul>
+<li><strong>left:</strong> \raggedright\arraybackslash</li>
+<li><strong>center:</strong> \centeringt\arraybackslash</li>
+<li><strong>right:</strong> \raggedleftt\arraybackslash</li>
+</ul>
 </section>
 <section id="column-width" class="level3">
 <h3 class="anchored" data-anchor-id="column-width">Column width</h3>
-<p><strong>{\textwidth}</strong></p>
-<p><strong>p{1.5in}</strong></p>
+<p>the <strong>{\textwidth}</strong> part of the code above ensures sets your table to cover the whole horizontal space it has available.</p>
+<p>The dimentions indicated in the format <strong>p{1.5in}</strong> is the part that actually sets the width of the column. You should make sure that the column width is optimal for the content, and that the total of all the column width is equal to the witdth of the horizontal space availabe.</p>
+<p>For single column table, the total available space is <strong>8.65cm</strong> or <strong>3.41in</strong>. For a two-column table, the total available space is about <strong>16.51cm</strong> or <strong>6.5in</strong>. As you can see in the latex code above, the total for the three column is actually 6.5 inches because the table is spanning two columns (as indicated by the use of tabularx.</p>
 </section>
+</section>
+<section id="linebreak-after-caption" class="level2">
+<h2 class="anchored" data-anchor-id="linebreak-after-caption">Linebreak after caption</h2>
+<p>Add <strong>\tabularnewline</strong> before you start adding rows to the table. Like this.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb7-1"><a href="#cb7-1"></a></span>
+<span id="cb7-2"><a href="#cb7-2"></a>  &gt;{\raggedright\arraybackslash}p{1.5in} </span>
+<span id="cb7-3"><a href="#cb7-3"></a>  &gt;{\raggedright\arraybackslash}p{2.5in}</span>
+<span id="cb7-4"><a href="#cb7-4"></a>  &gt;{\raggedleft\arraybackslash}p{2.5in} </span>
+<span id="cb7-5"><a href="#cb7-5"></a>}</span>
+<span id="cb7-6"><a href="#cb7-6"></a>\tabularnewline</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="rows" class="level2">
 <h2 class="anchored" data-anchor-id="rows">Rows</h2>
+<ul>
+<li>Each cell is separated by an <strong>ampersand (&amp;).</strong></li>
+<li>Each row ends with two backslashes (linebreak): <strong>\\</strong></li>
+</ul>
+<p>Here is an example.</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb8-1"><a href="#cb8-1"></a>first cell content &amp; second cell content &amp; third cell content \\</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="borders" class="level2">
 <h2 class="anchored" data-anchor-id="borders">Borders</h2>
+<ul>
+<li><strong>\toprule</strong> for the boder at the top of the table.</li>
+<li><strong>\midrule</strong> for the border below the header row.</li>
+<li><strong>\bottomrule</strong> for the border at the end of the table.</li>
+</ul>
+<p>Here is an example. Note that the \textbf{} is used to make the column header bold, which is the standard practice for CJILS manuscript.</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb9-1"><a href="#cb9-1"></a>\toprule</span>
+<span id="cb9-2"><a href="#cb9-2"></a>\textbf{First name} &amp; \textbf{Last name} &amp; \textbf{Date of birth} \\</span>
+<span id="cb9-3"><a href="#cb9-3"></a>\midrule</span>
+<span id="cb9-4"><a href="#cb9-4"></a>John &amp; Smith &amp; July 14, 1975 \\</span>
+<span id="cb9-5"><a href="#cb9-5"></a>Mary &amp; Robinson &amp; March 6, 1979 \\</span>
+<span id="cb9-6"><a href="#cb9-6"></a>\bottomrule</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="merging-rows-and-columns" class="level2">
+<h2 class="anchored" data-anchor-id="merging-rows-and-columns">Merging rows and columns</h2>
+<section id="merging-columns" class="level3">
+<h3 class="anchored" data-anchor-id="merging-columns">Merging columns</h3>
+</section>
+<section id="merging-rows" class="level3">
+<h3 class="anchored" data-anchor-id="merging-rows">Merging rows</h3>
+</section>
 </section>
 <section id="notes" class="level2">
 <h2 class="anchored" data-anchor-id="notes">Notes</h2>
-</section>
-<section id="layout" class="level2">
-<h2 class="anchored" data-anchor-id="layout">Layout</h2>
+<p>Adding footnotes to a table is done manually, by adding the a superscript in the cell that will refer to the note, and then adding a row that spans all columns at the end of the table. Note that the <strong>\\[-1.75ex]</strong> is there to add a small space between the last column and the footnote.</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb10-1"><a href="#cb10-1"></a>\toprule</span>
+<span id="cb10-2"><a href="#cb10-2"></a>\textbf{First name} &amp; \textbf{Last name} &amp; \textbf{Date of birth}</span>
+<span id="cb10-3"><a href="#cb10-3"></a>\bottomrule\textit{\textsuperscript{*}} \\</span>
+<span id="cb10-4"><a href="#cb10-4"></a>\midrule</span>
+<span id="cb10-5"><a href="#cb10-5"></a>John &amp; Smith &amp; July 14, 1975 \\</span>
+<span id="cb10-6"><a href="#cb10-6"></a>Mary &amp; Robinson &amp; March 6, 1979 \\</span>
+<span id="cb10-7"><a href="#cb10-7"></a>\bottomrule</span>
+<span id="cb10-8"><a href="#cb10-8"></a>\\[-1.75ex]</span>
+<span id="cb10-9"><a href="#cb10-9"></a>\multicolumn{3}{l}{\textsuperscript{*}This is a table not related to the date of birth column.} \\</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="tips-and-tricks-1" class="level2">
 <h2 class="anchored" data-anchor-id="tips-and-tricks-1">Tips and tricks</h2>

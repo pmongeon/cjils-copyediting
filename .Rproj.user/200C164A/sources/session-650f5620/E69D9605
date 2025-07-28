@@ -1,0 +1,32 @@
+{
+    "id": "E69D9605",
+    "path": "~/GitHub/cjils-copyediting/tables.qmd",
+    "project_path": "tables.qmd",
+    "type": "quarto_markdown",
+    "hash": "1147065171",
+    "contents": "",
+    "dirty": false,
+    "created": 1753626779338.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "4532:3070",
+        "cursorPosition": "41,76",
+        "scrollLine": "34",
+        "docOutlineSize": "153"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1753670368,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1753670368682,
+    "read_only": false,
+    "read_only_alternatives": []
+}

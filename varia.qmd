@@ -1,0 +1,40 @@
+# Varia {.unnumbered}
+
+## Dealing with non-latin languages
+
+::: callout-warning
+## Make sure newtx package is not loaded in the preamble
+
+This package creates a conflict and your document will not text in foreign languages.
+:::
+
+### Arabic example
+
+The following code needs to be added to the preamble.
+
+```{latex}
+\usepackage[bidi=default,english]{babel}
+\babelprovide[import]{arabic}
+\babelfont[arabic]{rm}{Amiri}
+```
+
+Then Arabic text can be added to the document like this:
+
+```{latex}
+\foreignlanguage{arabic}{(جائحة)}
+```
+
+### Indigenous languages example
+
+#### In the preamble
+
+```{latex}
+\usepackage{fontspec}
+\newfontfamily\inuktitutfont{Noto Sans Canadian Aboriginal}
+```
+
+#### In the text
+
+```{latex}
+{\inuktitutfont ᓄᓇᕗᒻᒥ ᐅᖃᓕᒫᒐᖃᕐᕕᒻᒥᑦ ᑎᑭᓵᒃᓴᐃᑦ}
+```

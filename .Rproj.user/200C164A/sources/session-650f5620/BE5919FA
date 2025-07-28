@@ -1,0 +1,31 @@
+{
+    "id": "BE5919FA",
+    "path": "~/GitHub/cjils-copyediting/varia.qmd",
+    "project_path": "varia.qmd",
+    "type": "quarto_markdown",
+    "hash": "1347458082",
+    "contents": "",
+    "dirty": false,
+    "created": 1753629677273.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualModeLocation": "672:0",
+        "rmdVisualCollapsedChunks": "",
+        "cursorPosition": "22,0",
+        "scrollLine": "4"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1753660261,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1753660261436,
+    "read_only": false,
+    "read_only_alternatives": []
+}
