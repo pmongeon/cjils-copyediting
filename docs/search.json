@@ -266,7 +266,7 @@
     "href": "main.html#sections",
     "title": "Main text",
     "section": "Sections",
-    "text": "Sections",
+    "text": "Sections\n\\section{level 1 heading}\n\\subsection{level 2 heading}\n\\subsubsection{level 3 heading}\n\\subsubsubsection{level 4 heading}",
     "crumbs": [
       "LaTeX",
       "Main text"
@@ -277,7 +277,7 @@
     "href": "main.html#paragraphs",
     "title": "Main text",
     "section": "Paragraphs",
-    "text": "Paragraphs",
+    "text": "Paragraphs\nThere is no particular code to write for a paragraph. Just put the text, and put a line break in between paragraphs.\nThis is a paragraph.\n\nThis is another paragraph.",
     "crumbs": [
       "LaTeX",
       "Main text"
@@ -288,7 +288,7 @@
     "href": "main.html#lists",
     "title": "Main text",
     "section": "Lists",
-    "text": "Lists\n\nBullet points\n\n\nNumbered lists\n\n\nSpacing between list items",
+    "text": "Lists\n\nBullet points\n\\begin{itemize}\n  \\item This is the first bullet point\n  \\item This is the second bullet point\n  \\item this is the third bullet point\n\\end{itemize}\n\n\nNumbered lists\n\\begin{enumerate}\n  \\item This is the first item\n  \\item This is the second item\n  \\item this is the third item\n\\end{enumerate}\n\n\nSpacing between list items\nBy default there will be a empty line between bullet points. That’s usually undesirable unless the bullets contain long multi-line text and spacing them out improves readability. So you will often use \\tightlist to reduce the space between the items. Like this:\n\\begin{itemize}\n  \\tightlist\n  \\item This is the first bullet point\n  \\item This is the second bullet point\n  \\item this is the third bullet point\n\\end{itemize}",
     "crumbs": [
       "LaTeX",
       "Main text"
@@ -299,7 +299,7 @@
     "href": "main.html#footnotes",
     "title": "Main text",
     "section": "Footnotes",
-    "text": "Footnotes",
+    "text": "Footnotes\nThis is a text.\\footnote{and this is the footnote for that text.}",
     "crumbs": [
       "LaTeX",
       "Main text"
@@ -310,7 +310,7 @@
     "href": "main.html#citations",
     "title": "Main text",
     "section": "Citations",
-    "text": "Citations",
+    "text": "Citations\nAt this point we write citations manually, directly in the paragraph so there is nothing specific to do other than making sure they are in proper APA 7 format.\nThis is a bit of text in a paragraph (Some author, 2022).",
     "crumbs": [
       "LaTeX",
       "Main text"
@@ -321,7 +321,7 @@
     "href": "main.html#quotes",
     "title": "Main text",
     "section": "Quotes",
-    "text": "Quotes\n\nShort quotes\n\n\nLong quotes",
+    "text": "Quotes\nQuotes can go straight in the text when less than 40 words or three lines, otherwise use a long quote.\n\\begin{quote}\n  This is a quote \n\\end{quote}",
     "crumbs": [
       "LaTeX",
       "Main text"
@@ -332,7 +332,7 @@
     "href": "main.html#hyperlinks",
     "title": "Main text",
     "section": "Hyperlinks",
-    "text": "Hyperlinks",
+    "text": "Hyperlinks\nuse the \\url{}\n\\url{https://www.somewebsite.ca/}",
     "crumbs": [
       "LaTeX",
       "Main text"
@@ -431,7 +431,7 @@
     "href": "tables.html#borders",
     "title": "Tables",
     "section": "Borders",
-    "text": "Borders\n\n\\toprule for the boder at the top of the table.\n\\midrule for the border below the header row.\n\\bottomrule for the border at the end of the table.\n\nHere is an example. Note that the \\textbf{} is used to make the column header bold, which is the standard practice for CJILS manuscript.\n\\toprule\n\\textbf{First name} & \\textbf{Last name} & \\textbf{Date of birth} \\\\\n\\midrule\nJohn & Smith & July 14, 1975 \\\\\nMary & Robinson & March 6, 1979 \\\\\n\\bottomrule",
+    "text": "Borders\n\n\\toprule for the boder at the top of the table.\n\\midrule for the border below the header row.\n\\bottomrule for the border at the end of the table.\n\\cline{} for a line that doesn’t go across the entire table but just for a specific set of columns. For example, \\cline{2-3} will draw a line only for columns 2 and 3.\n\nHere is an example. Note that the \\textbf{} is used to make the column header bold, which is the standard practice for CJILS manuscript.\n\\toprule\n\\textbf{First name} & \\textbf{Last name} & \\textbf{Date of birth} \\\\\n\\midrule\nJohn & Smith & July 14, 1975 \\\\\nMary & Robinson & March 6, 1979 \\\\\n\\bottomrule",
     "crumbs": [
       "LaTeX",
       "Tables"
@@ -464,7 +464,7 @@
     "href": "tables.html#tips-and-tricks-1",
     "title": "Tables",
     "section": "Tips and tricks",
-    "text": "Tips and tricks\n\nCopy pasting from Word\n\n\nCopilot",
+    "text": "Tips and tricks\n\nCopy pasting from Word\nYou don’t need to design your table from scratch, when in visual mode in Overleaf, you can copy and paste the table from word and you will just have to edit the automatically generated code rather than starting from scratch. This can save a lot of time.\n\n\nCopilot\nCopilot (or other AI tools I would imagine) can help you fix your table…. it’s not working. Copy your entire code from \\begin{table} to \\end{table} in a prompt that looks like this:\n\nThis does not work:\n[paste your code here.]\n\nOf course, you can be more specific about the issue.",
     "crumbs": [
       "LaTeX",
       "Tables"
@@ -475,7 +475,7 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "upcoming….",
+    "text": "Tip and tricks\nreferences start with \\begin{CSLReferences}{1}{} and end with \\end{CSLReferences}.\nEach reference is a \\bititem{}. You can write a label for each reference (e.g. \\bibitem{abedin2018}) but it`s not necessary. The references should be formatted according to the APA 7 format, manually (but see the tips and tricks below for a time saver).\nYou can give the list of references to Copilot and ask it to format it for you and even get the DOIs.",
     "crumbs": [
       "LaTeX",
       "References"
@@ -508,10 +508,32 @@
     "href": "tables.html#merging-rows-and-columns",
     "title": "Tables",
     "section": "Merging rows and columns",
-    "text": "Merging rows and columns\n\nMerging columns\n\n\nMerging rows",
+    "text": "Merging rows and columns\n\nMerging columns\nIf you want for a cell to span two columns, you can do this with \\multicolumn{}{}{}. The first curly bracket is for the numbers of columns to span, the second is for alignment (l, c, or r), and the third is for the content. Here is an example where I merge the last two columns for the first row. The table has three columns, so every row should have two &. However, we can see that the first row as only one & and a cell spanning 2 columns.\n  \\begin{tabular}{\n    &gt;{\\raggedright\\arraybackslash}p{5.25cm}\n    &gt;{\\raggedleft\\arraybackslash}p{1cm}\n    &gt;{\\raggedleft\\arraybackslash}p{1cm}\n  }\n  \\toprule\n   & \\multicolumn{2}{r}{Publication} \\\\\n  Country & N & Pct. \\\\\n  \\midrule\n  Canada & 20 & 80\\% \\\\\n  United States & 5 & 20\\% \\\\\n  \\bottomrule\n\n\nMerging rows\nMerging rows kind of works the same way with \\multirow{number of rows}{*}{content}.I’m not too sure what the star does, but it’s normally there.\n  \\toprule\n  \\multirow{2}{*}{Country} & \\multicolumn{2}{r}{Publication} \\\\\n  & N & Pct. \\\\\n  \\midrule\n  Canada & 20 & 80\\% \\\\\n  United States & 5 & 20\\% \\\\\n  \\bottomrule",
     "crumbs": [
       "LaTeX",
       "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#putting-it-all-together",
+    "href": "tables.html#putting-it-all-together",
+    "title": "Tables",
+    "section": "Putting it all together",
+    "text": "Putting it all together\n\\begin{table}\n  \\caption{Distribution of CJILS publications by country}\n  \\label{test}\n  \\begin{tabular}{\n    &gt;{\\raggedright\\arraybackslash}p{5.25cm}\n    &gt;{\\raggedleft\\arraybackslash}p{1cm}\n    &gt;{\\raggedleft\\arraybackslash}p{1cm}\n  }\n  \\\\\n  \\toprule\n  \\multirow{2}[b]{*}[-1.75ex]{Country} & \\multicolumn{2}{r}{Publication\\textsuperscript{*}} \\\\\n  \\cline{2-3}\n  \\\\[-1.75ex]\n  & N & Pct. \\\\\n  \\midrule\n  Canada & 20 & 80\\% \\\\\n  United States & 5 & 20\\% \\\\\n  \\bottomrule\n  \\\\[-1.75ex]\n  \\multicolumn{3}{l}{\\textsuperscript{*}Only includes research articles.}\n  \\end{tabular}\n\\end{table}",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "references.html#tip-and-tricks",
+    "href": "references.html#tip-and-tricks",
+    "title": "References",
+    "section": "",
+    "text": "Format this list of references in APA7 for latex using \\CSLReferences. Also, get the DOI when its missing and include the DOI as a URL using \\url{}:\n\n[Paste your references here]",
+    "crumbs": [
+      "LaTeX",
+      "References"
     ]
   }
 ]

@@ -271,6 +271,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#merging-rows" id="toc-merging-rows" class="nav-link" data-scroll-target="#merging-rows">Merging rows</a></li>
   </ul></li>
   <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
+  <li><a href="#putting-it-all-together" id="toc-putting-it-all-together" class="nav-link" data-scroll-target="#putting-it-all-together">Putting it all together</a></li>
   <li><a href="#tips-and-tricks-1" id="toc-tips-and-tricks-1" class="nav-link" data-scroll-target="#tips-and-tricks-1">Tips and tricks</a>
   <ul class="collapse">
   <li><a href="#copy-pasting-from-word" id="toc-copy-pasting-from-word" class="nav-link" data-scroll-target="#copy-pasting-from-word">Copy pasting from Word</a></li>
@@ -453,6 +454,7 @@ Do not fight LaTeX
 <li><strong>\toprule</strong> for the boder at the top of the table.</li>
 <li><strong>\midrule</strong> for the border below the header row.</li>
 <li><strong>\bottomrule</strong> for the border at the end of the table.</li>
+<li><strong>\cline{}</strong> for a line that doesn’t go across the entire table but just for a specific set of columns. For example, \cline{2-3} will draw a line only for columns 2 and 3.</li>
 </ul>
 <p>Here is an example. Note that the \textbf{} is used to make the column header bold, which is the standard practice for CJILS manuscript.</p>
 <div class="sourceCode" id="cb9"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb9-1"><a href="#cb9-1"></a>\toprule</span>
@@ -466,31 +468,84 @@ Do not fight LaTeX
 <h2 class="anchored" data-anchor-id="merging-rows-and-columns">Merging rows and columns</h2>
 <section id="merging-columns" class="level3">
 <h3 class="anchored" data-anchor-id="merging-columns">Merging columns</h3>
+<p>If you want for a cell to span two columns, you can do this with <strong>\multicolumn{}{}{}</strong>. The first curly bracket is for the numbers of columns to span, the second is for alignment (l, c, or r), and the third is for the content. Here is an example where I merge the last two columns for the first row. The table has three columns, so every row should have two &amp;. However, we can see that the first row as only one &amp; and a cell spanning 2 columns.</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb10-1"><a href="#cb10-1"></a>  \begin{tabular}{</span>
+<span id="cb10-2"><a href="#cb10-2"></a>    &gt;{\raggedright\arraybackslash}p{5.25cm}</span>
+<span id="cb10-3"><a href="#cb10-3"></a>    &gt;{\raggedleft\arraybackslash}p{1cm}</span>
+<span id="cb10-4"><a href="#cb10-4"></a>    &gt;{\raggedleft\arraybackslash}p{1cm}</span>
+<span id="cb10-5"><a href="#cb10-5"></a>  }</span>
+<span id="cb10-6"><a href="#cb10-6"></a>  \toprule</span>
+<span id="cb10-7"><a href="#cb10-7"></a>   &amp; \multicolumn{2}{r}{Publication} \\</span>
+<span id="cb10-8"><a href="#cb10-8"></a>  Country &amp; N &amp; Pct. \\</span>
+<span id="cb10-9"><a href="#cb10-9"></a>  \midrule</span>
+<span id="cb10-10"><a href="#cb10-10"></a>  Canada &amp; 20 &amp; 80\% \\</span>
+<span id="cb10-11"><a href="#cb10-11"></a>  United States &amp; 5 &amp; 20\% \\</span>
+<span id="cb10-12"><a href="#cb10-12"></a>  \bottomrule</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="merging-rows" class="level3">
 <h3 class="anchored" data-anchor-id="merging-rows">Merging rows</h3>
+<p>Merging rows kind of works the same way with <strong>\multirow{number of rows}{*}{content}</strong>.I’m not too sure what the star does, but it’s normally there.</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb11-1"><a href="#cb11-1"></a>  \toprule</span>
+<span id="cb11-2"><a href="#cb11-2"></a>  \multirow{2}{*}{Country} &amp; \multicolumn{2}{r}{Publication} \\</span>
+<span id="cb11-3"><a href="#cb11-3"></a>  &amp; N &amp; Pct. \\</span>
+<span id="cb11-4"><a href="#cb11-4"></a>  \midrule</span>
+<span id="cb11-5"><a href="#cb11-5"></a>  Canada &amp; 20 &amp; 80\% \\</span>
+<span id="cb11-6"><a href="#cb11-6"></a>  United States &amp; 5 &amp; 20\% \\</span>
+<span id="cb11-7"><a href="#cb11-7"></a>  \bottomrule</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
 <section id="notes" class="level2">
 <h2 class="anchored" data-anchor-id="notes">Notes</h2>
 <p>Adding footnotes to a table is done manually, by adding the a superscript in the cell that will refer to the note, and then adding a row that spans all columns at the end of the table. Note that the <strong>\\[-1.75ex]</strong> is there to add a small space between the last column and the footnote.</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb10-1"><a href="#cb10-1"></a>\toprule</span>
-<span id="cb10-2"><a href="#cb10-2"></a>\textbf{First name} &amp; \textbf{Last name} &amp; \textbf{Date of birth}</span>
-<span id="cb10-3"><a href="#cb10-3"></a>\bottomrule\textit{\textsuperscript{*}} \\</span>
-<span id="cb10-4"><a href="#cb10-4"></a>\midrule</span>
-<span id="cb10-5"><a href="#cb10-5"></a>John &amp; Smith &amp; July 14, 1975 \\</span>
-<span id="cb10-6"><a href="#cb10-6"></a>Mary &amp; Robinson &amp; March 6, 1979 \\</span>
-<span id="cb10-7"><a href="#cb10-7"></a>\bottomrule</span>
-<span id="cb10-8"><a href="#cb10-8"></a>\\[-1.75ex]</span>
-<span id="cb10-9"><a href="#cb10-9"></a>\multicolumn{3}{l}{\textsuperscript{*}This is a table not related to the date of birth column.} \\</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb12-1"><a href="#cb12-1"></a>\toprule</span>
+<span id="cb12-2"><a href="#cb12-2"></a>\textbf{First name} &amp; \textbf{Last name} &amp; \textbf{Date of birth}</span>
+<span id="cb12-3"><a href="#cb12-3"></a>\bottomrule\textit{\textsuperscript{*}} \\</span>
+<span id="cb12-4"><a href="#cb12-4"></a>\midrule</span>
+<span id="cb12-5"><a href="#cb12-5"></a>John &amp; Smith &amp; July 14, 1975 \\</span>
+<span id="cb12-6"><a href="#cb12-6"></a>Mary &amp; Robinson &amp; March 6, 1979 \\</span>
+<span id="cb12-7"><a href="#cb12-7"></a>\bottomrule</span>
+<span id="cb12-8"><a href="#cb12-8"></a>\\[-1.75ex]</span>
+<span id="cb12-9"><a href="#cb12-9"></a>\multicolumn{3}{l}{\textsuperscript{*}This is a table not related to the date of birth column.} \\</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="putting-it-all-together" class="level2">
+<h2 class="anchored" data-anchor-id="putting-it-all-together">Putting it all together</h2>
+<div class="sourceCode" id="cb13"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb13-1"><a href="#cb13-1"></a>\begin{table}</span>
+<span id="cb13-2"><a href="#cb13-2"></a>  \caption{Distribution of CJILS publications by country}</span>
+<span id="cb13-3"><a href="#cb13-3"></a>  \label{test}</span>
+<span id="cb13-4"><a href="#cb13-4"></a>  \begin{tabular}{</span>
+<span id="cb13-5"><a href="#cb13-5"></a>    &gt;{\raggedright\arraybackslash}p{5.25cm}</span>
+<span id="cb13-6"><a href="#cb13-6"></a>    &gt;{\raggedleft\arraybackslash}p{1cm}</span>
+<span id="cb13-7"><a href="#cb13-7"></a>    &gt;{\raggedleft\arraybackslash}p{1cm}</span>
+<span id="cb13-8"><a href="#cb13-8"></a>  }</span>
+<span id="cb13-9"><a href="#cb13-9"></a>  \\</span>
+<span id="cb13-10"><a href="#cb13-10"></a>  \toprule</span>
+<span id="cb13-11"><a href="#cb13-11"></a>  \multirow{2}[b]{*}[-1.75ex]{Country} &amp; \multicolumn{2}{r}{Publication\textsuperscript{*}} \\</span>
+<span id="cb13-12"><a href="#cb13-12"></a>  \cline{2-3}</span>
+<span id="cb13-13"><a href="#cb13-13"></a>  \\[-1.75ex]</span>
+<span id="cb13-14"><a href="#cb13-14"></a>  &amp; N &amp; Pct. \\</span>
+<span id="cb13-15"><a href="#cb13-15"></a>  \midrule</span>
+<span id="cb13-16"><a href="#cb13-16"></a>  Canada &amp; 20 &amp; 80\% \\</span>
+<span id="cb13-17"><a href="#cb13-17"></a>  United States &amp; 5 &amp; 20\% \\</span>
+<span id="cb13-18"><a href="#cb13-18"></a>  \bottomrule</span>
+<span id="cb13-19"><a href="#cb13-19"></a>  \\[-1.75ex]</span>
+<span id="cb13-20"><a href="#cb13-20"></a>  \multicolumn{3}{l}{\textsuperscript{*}Only includes research articles.}</span>
+<span id="cb13-21"><a href="#cb13-21"></a>  \end{tabular}</span>
+<span id="cb13-22"><a href="#cb13-22"></a>\end{table}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="tips-and-tricks-1" class="level2">
 <h2 class="anchored" data-anchor-id="tips-and-tricks-1">Tips and tricks</h2>
 <section id="copy-pasting-from-word" class="level3">
 <h3 class="anchored" data-anchor-id="copy-pasting-from-word">Copy pasting from Word</h3>
+<p>You don’t need to design your table from scratch, when in <strong>visual mode</strong> in Overleaf, you can copy and paste the table from word and you will just have to edit the automatically generated code rather than starting from scratch. This can save a lot of time.</p>
 </section>
 <section id="copilot" class="level3">
 <h3 class="anchored" data-anchor-id="copilot">Copilot</h3>
+<p>Copilot (or other AI tools I would imagine) can help you fix your table…. it’s not working. Copy your entire code from \begin{table} to \end{table} in a prompt that looks like this:</p>
+<blockquote class="blockquote">
+<p>This does not work:<br>
+[paste your code here.]</p>
+</blockquote>
+<p>Of course, you can be more specific about the issue.</p>
 
 
 </section>

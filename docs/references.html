@@ -20,26 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -224,8 +239,14 @@ div.csl-indent {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#tip-and-tricks" id="toc-tip-and-tricks" class="nav-link active" data-scroll-target="#tip-and-tricks">Tip and tricks</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -249,12 +270,30 @@ div.csl-indent {
 </header>
 
 
-<p>upcoming….</p>
-<div id="refs" role="list" style="display: none">
+<p>references start with <strong>\begin{CSLReferences}{1}{}</strong> and end with <strong>\end{CSLReferences}</strong>.<br>
+Each reference is a <strong>\bititem{}</strong>. You can write a label for each reference (e.g.&nbsp;\bibitem{abedin2018}) but it`s not necessary. The references should be formatted according to the APA 7 format, manually (but see the tips and tricks below for a time saver).</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href="#cb1-1"></a>\section{References}</span>
+<span id="cb1-2"><a href="#cb1-2"></a>\begin{CSLReferences}{1}{0}</span>
+<span id="cb1-3"><a href="#cb1-3"></a></span>
+<span id="cb1-4"><a href="#cb1-4"></a>\bibitem{}</span>
+<span id="cb1-5"><a href="#cb1-5"></a>Abedin, B., &amp; Babar, A. (2018). Institutional vs. non-institutional use of social media during emergency response: A case of Twitter in 2014 Australian bush fire. \textit{Information Systems Frontiers}, 20, 729–740. \url{https://doi.org/10.1007/s10796-017-9789-4}</span>
+<span id="cb1-6"><a href="#cb1-6"></a></span>
+<span id="cb1-7"><a href="#cb1-7"></a></span>
+<span id="cb1-8"><a href="#cb1-8"></a>\bibitem{}</span>
+<span id="cb1-9"><a href="#cb1-9"></a>Aldekhyyel, R., Binkheder, S., Aldekhyyel, S., Alhumaid, N., Hassounah, M., AlMogbel, A., &amp; Jamal, A. (2022). The Saudi ministries Twitter communication strategies during the COVID-19 pandemic: A qualitative content analysis study. \textit{Public Health in Practice}, 3, 100257. \url{https://doi.org/10.1016/j.puhip.2022.100257}</span>
+<span id="cb1-10"><a href="#cb1-10"></a></span>
+<span id="cb1-11"><a href="#cb1-11"></a>\end{CSLReferences}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="tip-and-tricks" class="level2">
+<h2 class="anchored" data-anchor-id="tip-and-tricks">Tip and tricks</h2>
+<p>You can give the list of references to Copilot and ask it to format it for you and even get the DOIs.</p>
+<blockquote class="blockquote">
+<p>Format this list of references in APA7 for latex using \CSLReferences. Also, get the DOI when its missing and include the DOI as a URL using \url{}:<br>
+<br>
+[Paste your references here]</p>
+</blockquote>
 
-</div>
 
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -221,13 +255,8 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#footnotes" id="toc-footnotes" class="nav-link" data-scroll-target="#footnotes">Footnotes</a></li>
   <li><a href="#citations" id="toc-citations" class="nav-link" data-scroll-target="#citations">Citations</a></li>
-  <li><a href="#quotes" id="toc-quotes" class="nav-link" data-scroll-target="#quotes">Quotes</a>
-  <ul class="collapse">
-  <li><a href="#short-quotes" id="toc-short-quotes" class="nav-link" data-scroll-target="#short-quotes">Short quotes</a></li>
-  <li><a href="#long-quotes" id="toc-long-quotes" class="nav-link" data-scroll-target="#long-quotes">Long quotes</a></li>
-  </ul></li>
+  <li><a href="#quotes" id="toc-quotes" class="nav-link" data-scroll-target="#quotes">Quotes</a></li>
   <li><a href="#hyperlinks" id="toc-hyperlinks" class="nav-link" data-scroll-target="#hyperlinks">Hyperlinks</a></li>
-  <li><a href="#spelling" id="toc-spelling" class="nav-link" data-scroll-target="#spelling">Spelling</a></li>
   </ul>
 </nav>
     </div>
@@ -258,42 +287,67 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="sections" class="level2">
 <h2 class="anchored" data-anchor-id="sections">Sections</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href="#cb1-1"></a>\section{level 1 heading}</span>
+<span id="cb1-2"><a href="#cb1-2"></a>\subsection{level 2 heading}</span>
+<span id="cb1-3"><a href="#cb1-3"></a>\subsubsection{level 3 heading}</span>
+<span id="cb1-4"><a href="#cb1-4"></a>\subsubsubsection{level 4 heading}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="paragraphs" class="level2">
 <h2 class="anchored" data-anchor-id="paragraphs">Paragraphs</h2>
+<p>There is no particular code to write for a paragraph. Just put the text, and put a line break in between paragraphs.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a href="#cb2-1"></a>This is a paragraph.</span>
+<span id="cb2-2"><a href="#cb2-2"></a></span>
+<span id="cb2-3"><a href="#cb2-3"></a>This is another paragraph.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="lists" class="level2">
 <h2 class="anchored" data-anchor-id="lists">Lists</h2>
 <section id="bullet-points" class="level3">
 <h3 class="anchored" data-anchor-id="bullet-points">Bullet points</h3>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1"><a href="#cb3-1"></a>\begin{itemize}</span>
+<span id="cb3-2"><a href="#cb3-2"></a>  \item This is the first bullet point</span>
+<span id="cb3-3"><a href="#cb3-3"></a>  \item This is the second bullet point</span>
+<span id="cb3-4"><a href="#cb3-4"></a>  \item this is the third bullet point</span>
+<span id="cb3-5"><a href="#cb3-5"></a>\end{itemize}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="numbered-lists" class="level3">
 <h3 class="anchored" data-anchor-id="numbered-lists">Numbered lists</h3>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1"><a href="#cb4-1"></a>\begin{enumerate}</span>
+<span id="cb4-2"><a href="#cb4-2"></a>  \item This is the first item</span>
+<span id="cb4-3"><a href="#cb4-3"></a>  \item This is the second item</span>
+<span id="cb4-4"><a href="#cb4-4"></a>  \item this is the third item</span>
+<span id="cb4-5"><a href="#cb4-5"></a>\end{enumerate}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="spacing-between-list-items" class="level3">
 <h3 class="anchored" data-anchor-id="spacing-between-list-items">Spacing between list items</h3>
+<p>By default there will be a empty line between bullet points. That’s usually undesirable unless the bullets contain long multi-line text and spacing them out improves readability. So you will often use <strong>\tightlist</strong> to reduce the space between the items. Like this:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1"><a href="#cb5-1"></a>\begin{itemize}</span>
+<span id="cb5-2"><a href="#cb5-2"></a>  \tightlist</span>
+<span id="cb5-3"><a href="#cb5-3"></a>  \item This is the first bullet point</span>
+<span id="cb5-4"><a href="#cb5-4"></a>  \item This is the second bullet point</span>
+<span id="cb5-5"><a href="#cb5-5"></a>  \item this is the third bullet point</span>
+<span id="cb5-6"><a href="#cb5-6"></a>\end{itemize}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
 <section id="footnotes" class="level2">
 <h2 class="anchored" data-anchor-id="footnotes">Footnotes</h2>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a href="#cb6-1"></a>This is a text.\footnote{and this is the footnote for that text.}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="citations" class="level2">
 <h2 class="anchored" data-anchor-id="citations">Citations</h2>
+<p>At this point we write citations manually, directly in the paragraph so there is nothing specific to do other than making sure they are in proper APA 7 format.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb7-1"><a href="#cb7-1"></a>This is a bit of text in a paragraph (Some author, 2022).</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="quotes" class="level2">
 <h2 class="anchored" data-anchor-id="quotes">Quotes</h2>
-<section id="short-quotes" class="level3">
-<h3 class="anchored" data-anchor-id="short-quotes">Short quotes</h3>
-</section>
-<section id="long-quotes" class="level3">
-<h3 class="anchored" data-anchor-id="long-quotes">Long quotes</h3>
-</section>
+<p>Quotes can go straight in the text when less than 40 words or three lines, otherwise use a long quote.</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb8-1"><a href="#cb8-1"></a>\begin{quote}</span>
+<span id="cb8-2"><a href="#cb8-2"></a>  This is a quote </span>
+<span id="cb8-3"><a href="#cb8-3"></a>\end{quote}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="hyperlinks" class="level2">
 <h2 class="anchored" data-anchor-id="hyperlinks">Hyperlinks</h2>
-</section>
-<section id="spelling" class="level2">
-<h2 class="anchored" data-anchor-id="spelling">Spelling</h2>
+<p>use the <strong>\url{}</strong></p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource {latex} number-lines code-with-copy"><code class="sourceCode"><span id="cb9-1"><a href="#cb9-1"></a>\url{https://www.somewebsite.ca/}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>

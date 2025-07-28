@@ -1,17 +1,12 @@
 {
-  "hash": "d03a5d541c5523076334e328fc29914d",
+  "hash": "e99ba01a16a0fca5ef60ef4570997823",
   "result": {
-    "engine": "knitr",
-    "markdown": "# Preface {.unnumbered}\n\nThis is a Quarto book.\n\nTo learn more about Quarto books visit <https://quarto.org/docs/books>.\n\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "engine": "jupyter",
+    "markdown": "# Main text {.unnumbered}\n\n## Overview\n\n## Sections\n\n\n\n\n```{latex}\n\\section{level 1 heading}\n\\subsection{level 2 heading}\n\\subsubsection{level 3 heading}\n\\subsubsubsection{level 4 heading}\n```\n\n\n\n\n## Paragraphs\n\nThere is no particular code to write for a paragraph. Just put the text, and put a line break in between paragraphs.\n\n\n\n\n```{latex}\nThis is a paragraph.\n\nThis is another paragraph.\n```\n\n\n\n\n## Lists\n\n### Bullet points\n\n\n\n\n```{latex}\n\\begin{itemize}\n  \\item This is the first bullet point\n  \\item This is the second bullet point\n  \\item this is the third bullet point\n\\end{itemize}\n```\n\n\n\n\n### Numbered lists\n\n\n\n\n```{latex}\n\\begin{enumerate}\n  \\item This is the first item\n  \\item This is the second item\n  \\item this is the third item\n\\end{enumerate}\n```\n\n\n\n\n### Spacing between list items\n\nBy default there will be a empty line between bullet points. That's usually undesirable unless the bullets contain long multi-line text and spacing them out improves readability. So you will often use **\\\\tightlist** to reduce the space between the items. Like this:\n\n\n\n\n```{latex}\n\\begin{itemize}\n  \\tightlist\n  \\item This is the first bullet point\n  \\item This is the second bullet point\n  \\item this is the third bullet point\n\\end{itemize}\n```\n\n\n\n\n## Footnotes\n\n\n\n\n```{latex}\nThis is a text.\\footnote{and this is the footnote for that text.}\n```\n\n\n\n\n## Citations\n\nAt this point we write citations manually, directly in the paragraph so there is nothing specific to do other than making sure they are in proper APA 7 format.\n\n\n\n\n```{latex}\nThis is a bit of text in a paragraph (Some author, 2022).\n```\n\n\n\n\n## Quotes\n\nQuotes can go straight in the text when less than 40 words or three lines, otherwise use a long quote.\n\n\n\n\n```{latex}\n\\begin{quote}\n  This is a quote \n\\end{quote}\n```\n\n\n\n\n## Hyperlinks\n\nuse the **\\\\url{}**\n\n\n\n\n```{latex}\n\\url{https://www.somewebsite.ca/}\n```\n\n",
     "supporting": [
       "main_files"
     ],
-    "filters": [
-      "rmarkdown/pagebreak.lua"
-    ],
-    "includes": {},
-    "engineDependencies": {},
-    "preserve": {},
-    "postProcess": true
+    "filters": [],
+    "includes": {}
   }
 }

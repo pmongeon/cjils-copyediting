@@ -3,7 +3,7 @@
     "path": "~/GitHub/cjils-copyediting/main.qmd",
     "project_path": "main.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "500403827",
     "contents": "",
     "dirty": false,
     "created": 1753629565625.0,
@@ -15,14 +15,17 @@
         "source_window_id": "",
         "Source": "Source",
         "docOutlineVisible": "1",
-        "rmdVisualModeLocation": "2:0"
+        "rmdVisualModeLocation": "1712:1475.5",
+        "cursorPosition": "86,0",
+        "scrollLine": "0",
+        "rmdVisualCollapsedChunks": ""
     },
     "folds": "",
-    "lastKnownWriteTime": 1753615712,
+    "lastKnownWriteTime": 1753707828,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1753615712,
+    "last_content_update": 1753707828135,
     "read_only": false,
     "read_only_alternatives": []
 }

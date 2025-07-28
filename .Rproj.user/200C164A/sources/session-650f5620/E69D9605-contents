@@ -130,6 +130,7 @@ first cell content & second cell content & third cell content \\
 -   **\\toprule** for the boder at the top of the table.
 -   **\\midrule** for the border below the header row.
 -   **\\bottomrule** for the border at the end of the table.
+-   **\\cline{}** for a line that doesn't go across the entire table but just for a specific set of columns. For example, \\cline{2-3} will draw a line only for columns 2 and 3.
 
 Here is an example. Note that the \\textbf{} is used to make the column header bold, which is the standard practice for CJILS manuscript.
 
@@ -146,7 +147,36 @@ Mary & Robinson & March 6, 1979 \\
 
 ### Merging columns
 
+If you want for a cell to span two columns, you can do this with **\\multicolumn{}{}{}**. The first curly bracket is for the numbers of columns to span, the second is for alignment (l, c, or r), and the third is for the content. Here is an example where I merge the last two columns for the first row. The table has three columns, so every row should have two &. However, we can see that the first row as only one & and a cell spanning 2 columns.
+
+```{latex}
+  \begin{tabular}{
+    >{\raggedright\arraybackslash}p{5.25cm}
+    >{\raggedleft\arraybackslash}p{1cm}
+    >{\raggedleft\arraybackslash}p{1cm}
+  }
+  \toprule
+   & \multicolumn{2}{r}{Publication} \\
+  Country & N & Pct. \\
+  \midrule
+  Canada & 20 & 80\% \\
+  United States & 5 & 20\% \\
+  \bottomrule
+```
+
 ### Merging rows
+
+Merging rows kind of works the same way with **\\multirow{number of rows}{\*}{content}**.I'm not too sure what the star does, but it's normally there.
+
+```{latex}
+  \toprule
+  \multirow{2}{*}{Country} & \multicolumn{2}{r}{Publication} \\
+  & N & Pct. \\
+  \midrule
+  Canada & 20 & 80\% \\
+  United States & 5 & 20\% \\
+  \bottomrule
+```
 
 ## Notes
 
@@ -165,8 +195,44 @@ Mary & Robinson & March 6, 1979 \\
 
 ```
 
+## Putting it all together
+
+```{latex}
+\begin{table}
+  \caption{Distribution of CJILS publications by country}
+  \label{test}
+  \begin{tabular}{
+    >{\raggedright\arraybackslash}p{5.25cm}
+    >{\raggedleft\arraybackslash}p{1cm}
+    >{\raggedleft\arraybackslash}p{1cm}
+  }
+  \\
+  \toprule
+  \multirow{2}[b]{*}[-1.75ex]{Country} & \multicolumn{2}{r}{Publication\textsuperscript{*}} \\
+  \cline{2-3}
+  \\[-1.75ex]
+  & N & Pct. \\
+  \midrule
+  Canada & 20 & 80\% \\
+  United States & 5 & 20\% \\
+  \bottomrule
+  \\[-1.75ex]
+  \multicolumn{3}{l}{\textsuperscript{*}Only includes research articles.}
+  \end{tabular}
+\end{table}
+```
+
 ## Tips and tricks
 
 ### Copy pasting from Word
 
+You don't need to design your table from scratch, when in **visual mode** in Overleaf, you can copy and paste the table from word and you will just have to edit the automatically generated code rather than starting from scratch. This can save a lot of time.
+
 ### Copilot
+
+Copilot (or other AI tools I would imagine) can help you fix your table.... it's not working. Copy your entire code from \\begin{table} to \\end{table} in a prompt that looks like this:
+
+> This does not work:\
+> \[paste your code here.\]
+
+Of course, you can be more specific about the issue.

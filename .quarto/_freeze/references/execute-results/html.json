@@ -1,0 +1,12 @@
+{
+  "hash": "5a841bf2e0e60b03b009a3598dda21d6",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "# References {.unnumbered}\n\nreferences start with **\\\\begin{CSLReferences}{1}{}** and end with **\\\\end{CSLReferences}**.\\\nEach reference is a **\\\\bititem{}**. You can write a label for each reference (e.g. \\\\bibitem{abedin2018}) but it\\`s not necessary. The references should be formatted according to the APA 7 format, manually (but see the tips and tricks below for a time saver).\n\n\n\n\n```{latex}\n\\section{References}\n\\begin{CSLReferences}{1}{0}\n\n\\bibitem{}\nAbedin, B., & Babar, A. (2018). Institutional vs. non-institutional use of social media during emergency response: A case of Twitter in 2014 Australian bush fire. \\textit{Information Systems Frontiers}, 20, 729–740. \\url{https://doi.org/10.1007/s10796-017-9789-4}\n\n\n\\bibitem{}\nAldekhyyel, R., Binkheder, S., Aldekhyyel, S., Alhumaid, N., Hassounah, M., AlMogbel, A., & Jamal, A. (2022). The Saudi ministries Twitter communication strategies during the COVID-19 pandemic: A qualitative content analysis study. \\textit{Public Health in Practice}, 3, 100257. \\url{https://doi.org/10.1016/j.puhip.2022.100257}\n\n\\end{CSLReferences}\n```\n\n\n\n\n## Tip and tricks\n\nYou can give the list of references to Copilot and ask it to format it for you and even get the DOIs.\n\n> Format this list of references in APA7 for latex using \\\\CSLReferences. Also, get the DOI when its missing and include the DOI as a URL using \\\\url{}:\\\n> \\\n> \\[Paste your references here\\]\n\n",
+    "supporting": [
+      "references_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
