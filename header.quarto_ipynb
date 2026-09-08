@@ -1,0 +1,66 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Header {.unnumbered}\n",
+        "\n",
+        "## First page header\n",
+        "\n",
+        "The first page header contains the following information\n",
+        "\n",
+        "-   The journal title in both language and capitalized (should already be in the template).\n",
+        "-   The volume number\n",
+        "-   The issue number\n",
+        "-   DOI\n",
+        "-   Document type\n",
+        "\n",
+        "\n",
+        "```{latex}\n",
+        "\\journal{\\scriptsize{The Canadian Journal of Information and Library Science - La Revue canadienne des sciences de l'information et de bibliothéconomie (CJILS-RCSIB)}}\n",
+        "\\volume{\\scriptsize{Vol. vv, No. i (yyyy) \n",
+        "\\\\ \n",
+        "DOI: 10.5206/cjils-rcsib.v--i-.-----\n",
+        "\\\\ \n",
+        "\\textbf{\\textit{Conference paper}}}} % Document type \n",
+        "\n",
+        "```\n",
+        "\n",
+        "\n",
+        "## Running Head\n",
+        "\n",
+        "### Odd Pages\n",
+        "\n",
+        "\n",
+        "```{latex}\n",
+        "\\shorttitle{CJILS/RCSIB Vol. 47, No. 2 (2024). DOI: 10.5206/cjils-rcsib.v-i--.--}\n",
+        "\n",
+        "```\n",
+        "\n",
+        "\n",
+        "### Even Pages\n",
+        "\n",
+        "\n",
+        "```{latex}\n",
+        "\\leftheader{Lastname and Lastname}\n",
+        "\n",
+        "```\n",
+        "\n",
+        "\n",
+        "## Summary"
+      ],
+      "id": "3f814397"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "part_3_cohere_rag",
+      "language": "python",
+      "display_name": "part_3_cohere_rag",
+      "path": "/Users/poppyriddle/Library/Jupyter/kernels/part_3_cohere_rag"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
