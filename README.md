@@ -14,12 +14,12 @@ Please see the deployed website [here](https://pmongeon.github.io/cjils-copyedit
 - [CrediT](https://credit.niso.org/) author role taxonomy
 
 ## To do list:
-[ ] add resources and links to Quarto doc
-[ ] add processes from OJS to Quarto for editorial
-[ ] add links to MS Teams copyeditors
-[ ] detail metadata requirements
-[ ] add process diagrams for what happens to metadata
-[ ] ORCID processes and how editors and authors are affected
-[ ] Crossmark documentation - add this to future publications
-[ ] license info
-[ ] CrediT documentation
+- [ ] add resources and links to Quarto doc
+- [ ] add processes from OJS to Quarto for editorial
+- [ ] add links to MS Teams copyeditors
+- [ ] detail metadata requirements
+- [ ] add process diagrams for what happens to metadata
+- [ ] ORCID processes and how editors and authors are affected
+- [ ] Crossmark documentation - add this to future publications
+- [ ] license info
+- [ ] CrediT documentation
