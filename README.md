@@ -7,6 +7,7 @@ Please see the deployed website [here](https://pmongeon.github.io/cjils-copyedit
 - Google Drive for [CJILS documents](https://drive.google.com/drive/folders/1aR0qlDHwu-1i6MnpPUo66YAkfg8yHRWn)
 - [Login for CJILS journal](https://ojs.lib.uwo.ca/index.php/cjils/login)
 - [PKP docs for OJS 3.5](https://docs.pkp.sfu.ca/learning-ojs/journal-managers/en/)
+- [OJS 3.5 workflow changes](https://docs.pkp.sfu.ca/learning-ojs/editorial-workflow/)
 - [COPE Guides](https://publicationethics.org/guidance)
 - [Crossref OJS docs](https://www.crossref.org/documentation/register-maintain-records/ojs-plugin/)
 - [Crossref Documentation](https://www.crossref.org/documentation/) for metadata deposits
