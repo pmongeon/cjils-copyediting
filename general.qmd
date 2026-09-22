@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Currently, we are using OJS 3.3 for this journal. You can reference PKP documentation [here](https://docs.pkp.sfu.ca/learning-ojs/3.3/en/) or a video playlist [here](https://www.youtube.com/watch?v=5Hwkqj4Jvew&list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF&index=1).
+Currently, we are using OJS 3.3 for this journal. You can reference PKP documentation [here](https://docs.pkp.sfu.ca/learning-ojs/3.3/en/) or a video playlist [here](https://www.youtube.com/watch?v=5Hwkqj4Jvew&list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF&index=1). OJS will be updated to 3.5 in mid-October to mid-December of 2026.
 
 ## Manuscript submission
 
