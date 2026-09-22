@@ -10,6 +10,22 @@ Currently, we are using OJS 3.3 for this journal. You can reference PKP document
 
 ## Copyediting
 
+-   Notifying a copyeditor;
+
+-   copyediting guides and links \[here\](<https://drive.google.com/drive/folders/1aR0qlDHwu-1i6MnpPUo66YAkfg8yHRWn?usp=sharing>)
+
+-   emailing through CJILS copyeding group in the Dal MS mail;
+
+-   assigning by tiers; French vs English versions;
+
+-   responsibilities of the copyeditor;
+
+-   uploading last draft from the copyeditor
+
+-   discussions between copyeditor and author
+
+-   approving copyedited version, sending to production
+
 ## Production
 
 ## Publication
