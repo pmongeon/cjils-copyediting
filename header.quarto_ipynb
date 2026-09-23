@@ -17,6 +17,8 @@
         "-   Document type\n",
         "\n",
         "\n",
+        "\n",
+        "\n",
         "```{latex}\n",
         "\\journal{\\scriptsize{The Canadian Journal of Information and Library Science - La Revue canadienne des sciences de l'information et de bibliothéconomie (CJILS-RCSIB)}}\n",
         "\\volume{\\scriptsize{Vol. vv, No. i (yyyy) \n",
@@ -28,9 +30,13 @@
         "```\n",
         "\n",
         "\n",
+        "\n",
+        "\n",
         "## Running Head\n",
         "\n",
         "### Odd Pages\n",
+        "\n",
+        "\n",
         "\n",
         "\n",
         "```{latex}\n",
@@ -39,7 +45,11 @@
         "```\n",
         "\n",
         "\n",
+        "\n",
+        "\n",
         "### Even Pages\n",
+        "\n",
+        "\n",
         "\n",
         "\n",
         "```{latex}\n",
@@ -48,9 +58,11 @@
         "```\n",
         "\n",
         "\n",
+        "\n",
+        "\n",
         "## Summary"
       ],
-      "id": "96ede847"
+      "id": "3bbccde7"
     }
   ],
   "metadata": {
