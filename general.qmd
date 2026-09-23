@@ -2,7 +2,11 @@
 
 ## Introduction
 
-Currently, we are using OJS 3.3 for this journal. You can reference PKP documentation [here](https://docs.pkp.sfu.ca/learning-ojs/3.3/en/) or a video playlist [here](https://www.youtube.com/watch?v=5Hwkqj4Jvew&list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF&index=1). OJS will be updated to 3.5 in mid-October to mid-December of 2026.
+This documentation is for CJILS Production Managers, Copyeditors, and Layout Editors and gives a detailed description of the roles and responsibilities for each. All production processes are managed through the CJILS OJS instance hosted by the University of Western Ontario. [link](https://ojs.lib.uwo.ca/index.php/cjils/submissions) Currently, we are using OJS 3.3 for this journal. You can reference PKP documentation [here](https://docs.pkp.sfu.ca/learning-ojs/3.3/en/) or a video playlist [here](https://www.youtube.com/watch?v=5Hwkqj4Jvew&list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF&index=1). OJS will be updated to 3.5 in mid-October to mid-December of 2026.
+
+Additionally, we use an subscription to Overleaf for formatting the proofs and final versions of each work. You can find the login for our Overleaf account [here](https://www.overleaf.com/project). More details on how to set up each Overleaf project will be included in the Copyediting section below.
+
+Overall, our workflow starts with the manuscript submission from an author or authors. If selected by the Chief Editor, it will be assigned to the Production Manager to send out requests for peer-review. Upon receiving peer-reviews, the Production Manager sends the reviews or recommendations to the authors. If revisions are required, the authors may resubmit another version for consideration by the Chief Editor who will determine if another round of reviews is necessary. If approved to move forward, the work then enters the Copyediting stage where the Production Manager will assign a CopyEditor. Once the Copyeditor has created a copy for revisions, it is sent to the author for review and comment. If approved, it moves forward to the Layout Editor and a proof is sent to the authors for their approval. Upon approval, the Final Proof is created and then sent to the authors for a final check. Once approved, the work is then scheduled for publication. Below, we have detailed steps for each process.
 
 ## Manuscript submission
 
