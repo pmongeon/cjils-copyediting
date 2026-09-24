@@ -6,6 +6,8 @@ This documentation is for CJILS Production Managers, Copyeditors, and Layout Edi
 
 Additionally, we use an subscription to Overleaf for formatting the proofs and final versions of each work. You can find the login for our Overleaf account [here](https://www.overleaf.com/project). More details on how to set up each Overleaf project will be included in the Copyediting section below.
 
+Our Google Drive for supporting documents referenced below can be found [here](https://drive.google.com/drive/folders/1aR0qlDHwu-1i6MnpPUo66YAkfg8yHRWn?usp=sharing).
+
 Overall, our workflow starts with the manuscript submission from an author or authors. If selected by the Chief Editor, it will be assigned to the Production Manager to send out requests for peer-review. Upon receiving peer-reviews, the Production Manager sends the reviews or recommendations to the authors. If revisions are required, the authors may resubmit another version for consideration by the Chief Editor who will determine if another round of reviews is necessary. If approved to move forward, the work then enters the Copyediting stage where the Production Manager will assign a CopyEditor. Once the Copyeditor has created a copy for revisions, it is sent to the author for review and comment. If approved, it moves forward to the Layout Editor and a proof is sent to the authors for their approval. Upon approval, the Final Proof is created and then sent to the authors for a final check. Once approved, the work is then scheduled for publication. Below, we have detailed steps for each process.
 
 ## Manuscript submission
@@ -54,21 +56,21 @@ Our goal is to spread the workload as evenly as possible so you may receive subm
 
 The table below shows the production timeline for each article. For most submissions, the initial copyedit, final copyedit and final proofread should be completed and returned within two weeks. The timeline below also applies to the authors’ copyedits and proofreading (unless there are particularly substantial changes; defer to the Editor if you have any questions).
 
-|  |  |  |  |  |  |
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| Copyedit 1 (2 weeks) | Author CE (2 week) | Copyedit 2 (2 week) | Layout (2 weeks) | Author Proof (1 week) | Final Proof (2 weeks)\| |
++:-----------:+:----------:+:-----------:+:---------:+:------------:+:------------:+
+| Copyedit 1  | Author CE  | Copyedit 2  | Layout    | Author Proof | Final Proof  |
+|             |            |             |           |              |              |
+| (2 weeks)   | (2 week)   | (2 week)    | (2 weeks) | (1 week)     | (2 weeks)\|  |
++-------------+------------+-------------+-----------+--------------+--------------+
 
-If you believe you will be unable to complete a submission in the usual timeframe, please contact the Production Editor to let them know. Depending on your availability, the timeline may either be adjusted or reassigned to another copyeditor.
+If you believe you will be unable to complete a submission in the usual time frame, please contact the Production Editor to let them know. Depending on your availability, the timeline may either be adjusted or reassigned to another copyeditor.
 
-#### Copyediting
+#### Copyeditor Tasks and Workflow in OJS
 
-The copyediting stage is intended to improve the readability of the writing: flow, clarity, grammar, wording, and formatting. It also represents the last chance for the author to make substantial changes to the text, as the next stage is restricted to typos and formatting corrections.
-
-Refer to the Copyeditor Tasks and Workflow in OJS for instructions on downloading/uploading files and communicating with authors and editors during the copyediting process.
+The copyediting stage is intended to improve the readability of the writing: flow, clarity, grammar, wording, and formatting. It also represents the last chance for the author to make substantial changes to the text, as the next stage is restricted to typos and formatting corrections. Refer to the [Copyeditor Tasks and Workflow in OJS](https://docs.google.com/document/d/19o-7MyR_FIM1vs5Js6WrbJiG06f9X8-wqFh-cy76k6k/edit?usp=sharing) for instructions on downloading/uploading files and communicating with authors and editors during the copyediting process.
 
 #### Copyediting and Style Guide 
 
-Copyeditors and Proofreaders use the provided CJILS Copyediting and Style Guide document for instructions on how to edit and style the articles. We ask that you follow this closely and complete the copyediting checklist.
+Copyeditors and Proofreaders use the provided [CJILS Copyediting and Style Guide](https://drive.google.com/file/d/15KeJ4oJdu91atUYUJaa8CY6IwqeSSK38/view?usp=sharing) document for instructions on how to edit and style the articles. We ask that you follow this closely and complete the copyediting checklist.
 
 #### Copyediting with Microsoft Word's Track Changes 
 
@@ -77,8 +79,6 @@ Track Changes (under Tools in the menu bar) enables the copyeditor to make inser
 #### Additional sections and links to add:
 
 -   Notifying a copyeditor;
-
--   copyediting guides and links \[here\](<https://drive.google.com/drive/folders/1aR0qlDHwu-1i6MnpPUo66YAkfg8yHRWn?usp=sharing>)
 
 -   emailing through CJILS copyeding group in the Dal MS mail;
 
@@ -102,7 +102,7 @@ The Proofreader will be sent the proof via the Production Discussions panel by t
 
 #### Copyediting/Style Guide and Layout 
 
-Proofreaders also use the provided CJILS Copyediting and Style Guide document for instructions on how to edit and style the articles. Proofreaders also use the Layout documents to proofread the formatting and layout of the articles.
+Proofreaders also use the provided [CJILS Copyediting and Style Guide](https://drive.google.com/file/d/15KeJ4oJdu91atUYUJaa8CY6IwqeSSK38/view?usp=sharing) document for instructions on how to edit and style the articles. Proofreaders also use the Layout documents to proofread the formatting and layout of the articles.
 
 #### For Spelling, Grammar, and Style Errors 
 
@@ -122,6 +122,10 @@ Use the comments tool in Adobe to request corrections. Provide "FORMATTING" inst
 
 ## Production
 
+From OJS 3.5...
+
 ### 
 
 ## Publication
+
+From OJS 3.5...
