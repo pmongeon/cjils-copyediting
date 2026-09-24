@@ -68,6 +68,20 @@ If you believe you will be unable to complete a submission in the usual time fra
 
 The copyediting stage is intended to improve the readability of the writing: flow, clarity, grammar, wording, and formatting. It also represents the last chance for the author to make substantial changes to the text, as the next stage is restricted to typos and formatting corrections. Refer to the [Copyeditor Tasks and Workflow in OJS](https://docs.google.com/document/d/19o-7MyR_FIM1vs5Js6WrbJiG06f9X8-wqFh-cy76k6k/edit?usp=sharing) for instructions on downloading/uploading files and communicating with authors and editors during the copyediting process.
 
+## Initial Copyedit
+
+-   Locate the file to be copyedited in “Draft files”
+
+![](img/image5.png){fig-alt="Screenshot of the CJILS OJS" fig-align="center"}
+
+-   Open the file.
+
+-   Complete the initial copyedit using Track Changes. 
+
+-   You are now ready to request that the author complete the Author Copyedit.
+
+...
+
 #### Copyediting and Style Guide 
 
 Copyeditors and Proofreaders use the provided [CJILS Copyediting and Style Guide](https://drive.google.com/file/d/15KeJ4oJdu91atUYUJaa8CY6IwqeSSK38/view?usp=sharing) document for instructions on how to edit and style the articles. We ask that you follow this closely and complete the copyediting checklist.
