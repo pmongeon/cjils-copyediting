@@ -1,3 +1,13 @@
 # Overleaf {.unnumbered}
 
-Upcoming....
+We use an subscription to Overleaf for formatting the proofs and final versions of each work. You can find the login for our Overleaf account [here](https://www.overleaf.com/project).
+
+More details on how to set up each Overleaf project will be included in the Copyediting section. This section contains resources for learning how to work with Overleaf and LateX.
+
+## The Overleaf interface
+
+Some text
+
+## LateX
+
+Some tips and resources for learning LateX

@@ -14,6 +14,7 @@ book:
         - ojs.qmd
         - overleaf.qmd
         - checklist.qmd
+        - style_guide.md
     - part: "LaTeX"
       chapters: 
         - header.qmd

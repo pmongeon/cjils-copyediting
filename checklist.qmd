@@ -1,3 +1,65 @@
 # Checklist {.unnumbered}
 
-Upcoming...
+## General Guidelines 
+
+### Working principles for copy editors 
+
+In their work, copyeditors should be encouraged to observe certain principles. They should:
+
+-   make essential changes only — if authors write correctly, their own wording should be kept;
+
+-   make the manuscript easy to read and correct;
+
+-   comment constructively when comment is needed;
+
+-   look for answers from reference sources or previous issues of the journal before putting queries to an author;
+
+-   keep queries to the author short and to the point.
+
+### Copyediting procedures
+
+One possible method of working is to deal with all the required levels of editing together, during one or two readings of a manuscript, followed by a separate stage for cross-checking and styling references. Another method is to edit the language first, at the same time as substantive editing if this is required, followed by format and mechanical style, again with reference checking as a separate stage.
+
+## Editing Checklists
+
+### CJILS Specific Requirements
+
+-   [ ] Does the first page include all the required information (**title, author names, institution, abstract, keywords, Orcid ID if known**)?
+
+-   [ ] Are the authors’ names and institution correct?
+
+-   [ ] Is an abstract of the correct kind included (**50-100 words in length**)?
+
+-   [ ] Is it unblinded? If not, check in with the Production Editor.
+
+-   [ ] Is the About the Author(s) statement properly positioned and marked?
+
+-   [ ] Are acknowledgements, if added, properly positioned and marked?
+
+-   [ ] Do the references have DOIs or links where applicable? Do the links work?
+
+-   [ ] Does the manuscript follow Chicago Author-Date style? Including in-text citations and references?
+
+### Level 1. Checklist for mechanical style and format of text
+
+-   [ ] Is the manuscript complete?
+
+-   [ ] Are all files with tables etc. included?
+
+-   [ ] If an appendix is included, is it properly positioned and marked?
+
+-   [ ] Are endnotes/footnotes, if any, clearly positioned and linked to their indicator symbols in the text?
+
+-   [ ] Are spelling and punctuation consistent? Is the spacing after punctuation correct?
+
+-   [ ] Are extracts and quotations clearly indicated and acknowledged?
+
+-   [ ] Are capital letters, small capitals, italics, and bold type clearly marked and used correctly and consistently?
+
+-   [ ] Are abbreviations and symbols used correctly and consistently? Are abbreviations other than recognized abbreviations for units explained at first mention and later used consistently?
+
+-   [ ] Are special scripts and accents clearly presented and used consistently?
+
+-   [ ] Are numerals correctly written? (see below)
+
+-   [ ] Are parentheses and brackets properly paired off?
