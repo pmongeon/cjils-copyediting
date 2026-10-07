@@ -15,18 +15,19 @@ Whether you're a seasoned language professional or newly joining the CJILS edito
 ## Contents
 
 ### Section 1. Copyediting Process and Tools
-- [Overview](general.qmd)
-- [Open Journal System (OJS)](ojs.qmd)
-- [Overleaf](overleaf.qmd)
-- [Checklist](checklist.qmd)
+
+-   [Overview](general.qmd)
+-   [Open Journal System (OJS)](ojs.qmd)
+-   [Overleaf](overleaf.qmd)
+-   [Checklist](checklist.qmd)
+-   [Style Guide](style_guide.qmd)
 
 ### Section 2. LaTeX guide
-- [Header](header.qmd)
-- [Title Page](title-page.qmd)
-- [Main Text](main.qmd)
-- [Figures](figures.qmd)
-- [Tables](tables.qmd)
-- [References](references.qmd)
-- [Appendices](appendices.qmd)
 
-
+-   [Header](header.qmd)
+-   [Title Page](title-page.qmd)
+-   [Main Text](main.qmd)
+-   [Figures](figures.qmd)
+-   [Tables](tables.qmd)
+-   [References](references.qmd)
+-   [Appendices](appendices.qmd)
