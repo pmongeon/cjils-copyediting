@@ -1,0 +1,262 @@
+# Style Guide
+
+## Spelling
+
+Use the [Chicago Style Guide](https://libraryguides.mcgill.ca/citations/chicago) as your guide.<br>
+
+House style for spelling is Canadian, except when directly citing a source which uses different spelling. Spelling, including hyphenation, should be consistent throughout the manuscript—except for quotations, which must retain the spelling of the original, whether correct or incorrect.
+
+### Special cases:
+
+-   ereaders and ebooks (not eBooks)
+-   internet (not Internet)
+-   right-click and right-clicking (not right click)
+-   web (not Web)
+-   html or other code as depicted in articles should be done with \<\> tags, (E.g., “We use the <span> tag to indicate ...”)
+
+Otherwise, standard Canadian spelling includes:
+
+-   Defence
+-   Centre, theatre
+-   Endeavour, humour, colour
+-   Kilometer and kilometre are both acceptable
+
+Additional Technology Terms:
+
+-   email
+
+-   ebook
+
+-   ereader
+
+-   Database
+
+-   data set
+
+-   smartphone
+
+-   internet
+
+-   Intranet
+
+-   Wi-Fi
+
+-   website
+
+-   webpage
+
+-   the web
+
+-   home page
+
+-   username
+
+-   login page (but "log in")
+
+-   emoji (for the plural, either when used as a verb) "emoji" or "emojis")
+
+## Punctuation
+
+### Commas
+
+Pay careful attention to the Chicago guidelines for using commas. They are usually overused by authors. Use the Oxford Comma, in citations and in regular text. E.g. Associated events can include author interviews, pubcrawls, lectures, online discussions, or even canoe trips.
+
+### Em Dashes
+
+Use em dashes sparingly to provide more emphasis than commas and parentheses can provide. Refer to the Chicago Style Guide when doing so. Do not use a space before or after the dashes.
+
+> Example:
+>
+> *Organizers must identify cultural literacies—unique to every MRE—that may act as barriers to participation.*
+
+To generate an em dash (roughly equivalent to the width of an uppercase M, in contrast to the ndash, which is as wide as an N) hold down Alt and press 0, 1, 5, 1 on your numeric keypad (or holding down Fn and Alt, on newer keyboards without a separate numpad). Or just copy it from here: —
+
+### Quotations
+
+Punctuation sits inside quotation marks, even if the punctuation isn’t actually part of the quote.
+
+### Colons and Semicolons
+
+Use a colon to join two independent clauses when you wish to emphasize the second clause.
+
+> Example:
+>
+> *Road construction in Dallas has hindered travel around town: parts of Main, Fifth, and West Street are closed during the construction.*
+
+Use a colon after an independent clause when it is followed by a list, a quotation, appositive, or other ideas directly related to the independent clause.
+
+> Example:
+>
+> *Julie went to the store for some groceries: milk, bread, coffee, and cheese.*
+
+If the clause following the colon is itself a complete sentence, it should begin with a capital letter.
+
+> Examples:
+>
+> *Freud (1930) wrote of two urges: an urge toward union with others and an egoistic urge toward happiness.*
+>
+> *They have agreed on the outcome: Informed participants perform better than do uninformed participants.*
+
+Use a semicolon to join two independent clauses when the second clause restates the first or when the two clauses are of equal emphasis.
+
+> Example:
+>
+> *Road construction in Dallas has hindered travel around town; streets have become covered with bulldozers, trucks, and cones.*
+
+Use a semicolon to join two independent clauses when the second clause begins with a conjunctive adverb (however, therefore, moreover, furthermore, thus, meanwhile, nonetheless, otherwise) or a transition (in fact, for example, that is, for instance, in addition, in other words, on the other hand, even so).
+
+> Example:
+>
+> *Terrorism in the United States has become a recent concern; in fact, the concern for America's safety has led to an awareness of global terrorism.*
+
+Use a semicolon to join elements of a series when individual items of the series already include commas.
+
+> Example:
+>
+> *Recent sites of the Olympic Games include Athens, Greece; Salt Lake City, Utah; Sydney, Australia; Nagano, Japan.*
+
+### Bullet Points
+
+Bullet points should start with a capital and end with a period. Alternatively, if you wish to create a sentence structure with your list, you can end each item on the list with a semicolon (and the final item with a period).
+
+### Hyphenation
+
+See section 7.81-89 of the Chicago Style Guide online for the hyphenation guide. In general, Chicago prefers a spare hyphenation style: if no suitable example or analogy can be found either in this section (7.81–89) or in the dictionary, hyphens should be added only if doing so will prevent a misreading or otherwise significantly aid comprehension. But, the reverse is also true: If the compound adjective is clear as it stands, you do not need a hyphen. This may sound like a judgment call, but the following guidelines can help you make the call in many cases. Adverbs ending in -ly are understood to modify the word that follows. Adding a hyphen would be redundant. For example, in the phrase “widely attended gatherings” readers understand that widely modifies attended. Adding a hyphen, to write this as “widely-attended gatherings,” would not give the reader any additional information.
+
+More info available here: <https://www-chicagomanualofstyle-org.proxy1.lib.uwo.ca/book/ed17/part2/ch07/psec089.html>
+
+Example relevant cases:
+
+-   "Information-seeking behaviour" not “information seeking behaviour”
+
+-   "On" or "off campus" as a place and "off-campus" as a descriptor (off-campus access, off-campus students)
+
+-   "Full-text downloads" (instead of full text downloads)
+
+## Grammar
+
+### Plural Nouns
+
+“Data” is a plural noun so must be followed by a verb in the plural.
+
+> Example:
+>
+> *Once approval was granted from the University Ethics Review Board, the survey data were collected using the online survey tool.*
+
+### Tense
+
+Select tense carefully. By using verb tenses consistently, you can help ensure smooth expression. Past tense (e.g., “Smith showed,”) or present perfect tense (e.g., “researchers have shown”) or present tense (e.g. Smith presents similar results) are all appropriate for the literature review. Stay within the chosen tense. Use past tense (e.g., “Anxiety decreased significantly”) to describe the results. Use the present tense (e.g., “the results of Experiment 2 indicate”) to discuss implications of the results and to present the conclusions. By reporting the conclusions in the present tense, you allow readers to join you in deliberating the matter at hand.
+
+### That/Which
+
+That clauses are essential to the meaning of the sentence (the materials that worked well in the first experiment were used in the second experiment). Which clauses can merely add further information (non-restrictive) or can be essential to the meaning (restrictive) of the sentence.
+
+> Restrictive: *The cards that worked well in the first experiment were not useful in the second experiment.*
+>
+> Non-restrictive: *The cards, which worked well in the first experiment, were not useful in the second experiment.*
+
+Consistent use of that for restrictive clauses and which for non-restrictive clauses, which are set off with commas, will help you make your writing clear and precise.
+
+## Citations
+
+Refer to the Chicago Style Guide for citation specifics or use the [Author-Date Quick Guide](https://www.chicagomanualofstyle.org/turabian/turabian-author-date-citation-quick-guide.html).
+
+For journal articles, only use the formatting for the issue info “11, no. 1 (Spring): 95-109” if you are including the season. Otherwise, it should appear as “11 (1): 95–109”.
+
+## Numerals
+
+Spell out:
+
+-   One through nine when not used with units of measurement or used in comparisons with numbers 10 or greater
+
+-   Large numbers that can be expressed as two words (four hundred, two thousand)
+
+-   Any number used to begin a sentence (unless it’s absolutely impossible to reword)
+
+-   Numbers one or zero (zero-tolerance policy)
+
+-   Common fractions (one-third)
+
+-   Common expressions (twenty-first century)
+
+-   Centuries (nineteenth century)
+
+Use combination of words and numerals:
+
+-   For large numbers (3 million people, 4.5 million dollars)
+
+-   When numbers appears back-to-back (30 four-year-olds)
+
+Use numerals:
+
+-   For any number with a precise unit of measurement
+
+-   To describe a sample size, specific number of participants
+
+-   For measures of time, ages, dates, exact sums of money (8:00 am; \$56.78)
+
+-   For statistical or mathematical functions, proportions, ratios, percentages (use %)
+
+-   Use numerals and spell out “percent” for non-technical contexts
+
+## Tables
+
+Titles and subtitles should sit outside of tables rather than inside a merged-across cell. Tables containing multiple sections titled or subtitled with merged-across cells should be broken into separate tables.
+
+## General Style Guidelines
+
+-   If a research article is based on a survey, we prefer to include the survey instrument in an appendix.
+
+-   Avoid slang and colloquial language. The “take home message” is: don’t plan a library event on a Friday. Preferred style: In short: don’t plan a library event on a Friday.
+
+-   Avoid needless words. Instead of a construction like “The question as to whether,” simply “Whether” would be preferred.
+
+> Rather than:
+>
+> *Therefore, this study reports on member perceptions of diversity through various aspects of board work such as...*
+>
+> The following is preferred:
+>
+> *This study reports on board member perceptions of diversity in the areas of...*
+>
+> Rather than:
+>
+> *in spite of the fact that*
+>
+> The following is preferred:
+>
+> *though or although*
+>
+> Rather than:
+>
+> *The job was unattractive in terms of salary*
+>
+> The following is preferred:
+>
+> *The salary made the job unattractive.*
+
+-   Use the appropriate prepositions for idiomatic phrases. When more than one phrase appears in a sentence, use the right preposition for each phrase:
+
+    > Example:
+    >
+    > *His speech was marked by disagreement with and scorn for his opponent’s policies.*
+
+-   Avoid use of quotation marks to hedge or downplay meaning.
+
+> Correct: *The teacher rewarded the class with tokens.*
+>
+> Incorrect: *The teacher “rewarded” the class with tokens.*
+
+-   Avoid hedging words like apparently, comparatively, fairly, partially, relatively, unless absolutely necessary!
+
+-   Avoid the abstract, vacuous language of metaconcepts (concepts that are containers for concepts).
+
+-   Avoid nominalization (when a verb becomes an abstract noun) as much as possible. These are also known as “zombie nouns” because they lack a human agent. Look out for the long words that end in -ment, -ation, -ance and see if they can turn back into verbs instead.
+
+    > E.g. *We implemented a postponement of the event due to the weather.*
+    >
+    > Preferred style: *We postponed the event due to the weather.*
+
+-   All acronyms must be spelled out in full the first time they are used in an article along with the acronym in parentheses. There are some exceptions—acronyms that all readers would be expected to know, and so would not need to be spelled out. (HTML, URL, MARC)
+
+-   Spell out lesser known or unique acronyms (Rules for Archival Description, Metadata Object Description Schema, Ontario LIbrary Association. Unusual acronyms may be spelled in full throughout the article to take the burden off the reader to remember what they stand for.

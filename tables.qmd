@@ -39,14 +39,14 @@ If you're happy with the table placement, you don't have to do anything.
 
 ### Specifiers
 
-| Specifier  | Meaning                                                     |
-|------------|-------------------------------------------------------------|
-| h          | Place the table **here**, roughly at the current location   |
-| t          | Place the table at the **top** of the page                  |
-| b          | Place the table at the **bottom** of the page               |
-| p          | Place the table on a **separate page** for floats only      |
-| !          | Override LaTeX’s internal float placement rules             |
-| H          | Place the table **exactly here** (requires `float` package) |
+| Specifier | Meaning                                                     |
+|-----------|-------------------------------------------------------------|
+| h         | Place the table **here**, roughly at the current location   |
+| t         | Place the table at the **top** of the page                  |
+| b         | Place the table at the **bottom** of the page               |
+| p         | Place the table on a **separate page** for floats only      |
+| !         | Override LaTeX’s internal float placement rules             |
+| H         | Place the table **exactly here** (requires `float` package) |
 
 ### Example
 

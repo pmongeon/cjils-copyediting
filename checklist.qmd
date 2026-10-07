@@ -1,8 +1,8 @@
 # Checklist {.unnumbered}
 
-## General Guidelines 
+## General Guidelines
 
-### Working principles for copy editors 
+### Working principles for copy editors
 
 In their work, copyeditors should be encouraged to observe certain principles. They should:
 
@@ -63,3 +63,95 @@ One possible method of working is to deal with all the required levels of editin
 -   [ ] Are numerals correctly written? (see below)
 
 -   [ ] Are parentheses and brackets properly paired off?
+
+### Level 2. Checklist for tables and figures
+
+-   [ ] Are tables and figures referred to in the text in correct numerical order?
+
+-   [ ] Do tables and figures show what the text says they show?
+
+-   [ ] Do numbers and other references to table and figure contents match any details cited in the text?
+
+#### Tables
+
+-   [ ] Do tables have clear titles, column headings, and footnotes, as needed?
+
+-   [ ]  Have abbreviations in tables been explained?
+
+-   [ ]  Is the arithmetic in tables correct — do numbers in table columns add up correctly, and are percentages correct?
+
+#### Figures
+
+-   [ ] Are line drawings clearly drawn?
+
+-   [ ] Are photographs of good quality?
+
+-   [ ] If figures have been supplied electronically, are size and resolution acceptable?
+
+### Level 3. Checklist for citations and bibliographical references
+
+-   [ ] Are all citations in the text included in the reference list?
+
+-   [ ] Are all references in the list cited in the text?
+
+-   [ ] Are in-text citations and references unblinded?
+
+-   [ ] If names and dates are given in the text, do they agree with those in the list?
+
+-   [ ] Does the form of citations in the text match Chicago Author-Date?
+
+-   [ ] Are all the required parts of references included in the reference list according to Chicago Author-Date?
+
+-   [ ] Are those parts in the correct sequence and form?
+
+-   [ ] Is the punctuation correct?
+
+-   [ ] Is the typographical style (case, italics, bold) correct?
+
+-   [ ] If journal titles are abbreviated, are abbreviations correct?
+
+-   [ ]  Does the form of references to books, reports, and other types of publication match the Chicago Author-Date?
+
+-   [ ] Are DOIs and links to e-articles present and valid?
+
+### Level 4. A checklist for language editing
+
+#### Spelling and punctuation
+
+-   [ ] Is the spelling correct and consistent, according to house style?
+
+-   [ ] Are quotation marks correctly used according to Chicago Author-Date?
+
+-   [ ] Are parentheses correctly placed?
+
+-   [ ] Are commas correctly used?
+
+-   [ ] Are hyphens and en and em dashes correctly used with proper spacing?
+
+-   [ ] Have apostrophes been kept to a minimum and been correctly used?
+
+-   [ ] Are colons and semicolons correctly used?
+
+-   [ ] Have exclamation marks and dashes been kept to a minimum?
+
+#### Grammar and syntax
+
+-   [ ] Has the passive voice been kept to a reasonable minimum?
+
+-   [ ] Are tenses used correctly and consistently?
+
+-   [ ] Have strings of three or more nouns been kept to a minimum?
+
+-   [ ] Have words been used in the right order?
+
+#### Usage
+
+-   [ ] Is usage correct according to current recommendations?
+
+-   [ ] Have words been used with precision?
+
+-   [ ] Have the simplest words and the simplest ways of writing been used?
+
+-   [ ] Have sexist, racist, or dehumanizing terms been transformed or removed?
+
+*Adapted from O’Connor, Maeve, Margaret Cooter, and Sylwia B. Ufnalska. "1.1: Copy-editing scientific papers." P. Smart, H. Maisonneuve & A. Polderman, eds (2013).*
