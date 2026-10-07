@@ -37,6 +37,7 @@ format:
     toc: true
     toc-depth: 3
     toc-expand: true
+    number-sections: false
 #  pdf:
 #    documentclass: scrreprt
 #    keep-tex: false
