@@ -24,6 +24,7 @@ book:
         - tables.qmd
         - references.qmd
         - appendices.qmd
+        - varia.qmd
 
 format:
   html:

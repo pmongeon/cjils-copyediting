@@ -4,7 +4,7 @@
 
 ### Single Column Table
 
-```{latex}
+```{latex}}
 \begin{table}
   \begin{tabular}
   \end{tabular}
@@ -13,7 +13,7 @@
 
 ### Two-Column Table
 
-```{latex}
+```{latex}}
 \begin{table*}
   \begin{tabularx}
   \end{tabularx}
@@ -24,7 +24,7 @@
 
 #### Two column
 
-```{latex}
+```{latex}}
 \begin{table*}
   \begin{longtable}
   \end{longtable}
@@ -50,7 +50,7 @@ If you're happy with the table placement, you don't have to do anything.
 
 ### Example
 
-```{latex}
+```{latex}}
 \begin{table*}
   \begin{longtable}
   \end{longtable}
@@ -73,13 +73,13 @@ Often, you might find that latex is not at all cooperating with you when it come
 
 The caption is the first element in the table.
 
-```{latex}
+```{latex}}
 \caption{\label{tbl-mytable}\textit{title of the table goes here}}
 ```
 
 ## Columns
 
-```{latex}
+```{latex}}
 \begin{tabularx}{\textwidth}{%
   >{\raggedright\arraybackslash}p{1.5in} 
   >{\raggedright\arraybackslash}p{2.5in}
@@ -105,7 +105,7 @@ For single column table, the total available space is **8.65cm** or **3.41in**. 
 
 Add **\\tabularnewline** before you start adding rows to the table. Like this.
 
-```{latex}
+```{latex}}
 
   >{\raggedright\arraybackslash}p{1.5in} 
   >{\raggedright\arraybackslash}p{2.5in}
@@ -121,7 +121,7 @@ Add **\\tabularnewline** before you start adding rows to the table. Like this.
 
 Here is an example.
 
-```{latex}
+```{latex}}
 first cell content & second cell content & third cell content \\
 ```
 
@@ -134,7 +134,7 @@ first cell content & second cell content & third cell content \\
 
 Here is an example. Note that the \\textbf{} is used to make the column header bold, which is the standard practice for CJILS manuscript.
 
-```{latex}
+```{latex}}
 \toprule
 \textbf{First name} & \textbf{Last name} & \textbf{Date of birth} \\
 \midrule
@@ -149,7 +149,7 @@ Mary & Robinson & March 6, 1979 \\
 
 If you want for a cell to span two columns, you can do this with **\\multicolumn{}{}{}**. The first curly bracket is for the numbers of columns to span, the second is for alignment (l, c, or r), and the third is for the content. Here is an example where I merge the last two columns for the first row. The table has three columns, so every row should have two &. However, we can see that the first row as only one & and a cell spanning 2 columns.
 
-```{latex}
+```{latex}}
   \begin{tabular}{
     >{\raggedright\arraybackslash}p{5.25cm}
     >{\raggedleft\arraybackslash}p{1cm}
@@ -168,7 +168,7 @@ If you want for a cell to span two columns, you can do this with **\\multicolumn
 
 Merging rows kind of works the same way with **\\multirow{number of rows}{\*}{content}**.I'm not too sure what the star does, but it's normally there.
 
-```{latex}
+```{latex}}
   \toprule
   \multirow{2}{*}{Country} & \multicolumn{2}{r}{Publication} \\
   & N & Pct. \\
@@ -182,7 +182,7 @@ Merging rows kind of works the same way with **\\multirow{number of rows}{\*}{co
 
 Adding footnotes to a table is done manually, by adding the a superscript in the cell that will refer to the note, and then adding a row that spans all columns at the end of the table. Note that the **\\\\\[-1.75ex\]** is there to add a small space between the last column and the footnote.
 
-```{latex}
+```{latex}}
 \toprule
 \textbf{First name} & \textbf{Last name} & \textbf{Date of birth}
 \bottomrule\textit{\textsuperscript{*}} \\
@@ -197,7 +197,7 @@ Mary & Robinson & March 6, 1979 \\
 
 ## Putting it all together
 
-```{latex}
+```{latex}}
 \begin{table}
   \caption{Distribution of CJILS publications by country}
   \label{test}

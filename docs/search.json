@@ -1,0 +1,682 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CJILS Copyediting and Layout Manual",
+    "section": "",
+    "text": "Introduction\nWelcome to the official guide for supporting the copyediting process of manuscripts submitted to the Canadian Journal of Information and Library Science (CJILS). This resource is designed to assist the journal editors, managers, and copyeditors editors in preparing CJILS articles for publication—ensuring clarity, consistency, and compliance with journal style.\nWhether you’re a seasoned language professional or newly joining the CJILS editorial workflow, this guide provides step-by-step instructions, templates, checklists, and formatting support tailored to the specific needs of our journal.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#contents",
+    "href": "index.html#contents",
+    "title": "CJILS Copyediting and Layout Manual",
+    "section": "Contents",
+    "text": "Contents\n\nSection 1. Copyediting Process and Tools\n\nOverview\nOpen Journal System (OJS)\nOverleaf\nChecklist\nStyle Guide\n\n\n\nSection 2. LaTeX guide\n\nHeader\nTitle Page\nMain Text\nFigures\nTables\nReferences\nAppendices\nVaria",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "general.html",
+    "href": "general.html",
+    "title": "Overview",
+    "section": "",
+    "text": "Introduction\nThis documentation is for CJILS Production Managers, Copyeditors, and Layout Editors and gives a detailed description of the roles and responsibilities for each. All production processes are managed through the CJILS OJS instance hosted by the University of Western Ontario. link Currently, we are using OJS 3.3 for this journal. You can reference PKP documentation here or a video playlist here. OJS will be updated to 3.5 in mid-October to mid-December of 2026.\nAdditionally, we use an subscription to Overleaf for formatting the proofs and final versions of each work. You can find the login for our Overleaf account here. More details on how to set up each Overleaf project will be included in the Copyediting section below.\nOur Google Drive for supporting documents referenced below can be found here.\nOverall, our workflow starts with the manuscript submission from an author or authors. If selected by the Chief Editor, it will be assigned to the Production Manager to send out requests for peer-review. Upon receiving peer-reviews, the Production Manager sends the reviews or recommendations to the authors. If revisions are required, the authors may resubmit another version for consideration by the Chief Editor who will determine if another round of reviews is necessary. If approved to move forward, the work then enters the Copyediting stage where the Production Manager will assign a CopyEditor. Once the Copyeditor has created a copy for revisions, it is sent to the author for review and comment. If approved, it moves forward to the Layout Editor and a proof is sent to the authors for their approval. Upon approval, the Final Proof is created and then sent to the authors for a final check. Once approved, the work is then scheduled for publication. Below, we have detailed steps for each process.",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "general.html#manuscript-submission",
+    "href": "general.html#manuscript-submission",
+    "title": "Overview",
+    "section": "Manuscript submission",
+    "text": "Manuscript submission",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "general.html#peer-review",
+    "href": "general.html#peer-review",
+    "title": "Overview",
+    "section": "Peer-review",
+    "text": "Peer-review",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "general.html#copyediting",
+    "href": "general.html#copyediting",
+    "title": "Overview",
+    "section": "Copyediting",
+    "text": "Copyediting\n\nCopyeditor Role\nThe copyeditor:\n\nremoves redundancies and repetition,\nensures compliance with the journal’s bibliographic style,\ncorrects typographic errors, and problems with spelling, punctuation and grammar.\n\nThe copyeditor does not change or challenge the substance of the work. If there are concerns about the substance, they should be discussed with the editor before the article is sent back to the author. Authors and copyeditors share responsibility for correct citations. While the burden is proportionally on the author, copyeditors should also double check for accuracy, to the best of their ability. Copyeditors may not have access to all sources; if in doubt, flag an item for the author to recheck. Copyeditors liaise directly with the authors about changes to the manuscript. However, if you have any comments or questions that you are unsure of sending to the author, you may contact the Editor for feedback.\n\nWorkload:\nOur goal is to spread the workload as evenly as possible so you may receive submissions at any point during the year.\n\n\nBasic Production Process:\n\nThe Copyeditor downloads the Draft file and makes copyedits using Track Changes.\nThe Copyeditor sends the article with revisions back to the author.\nThe author makes changes and returns the article back to the Copyeditor.\nThe Copyeditor prepares a clean, edited copy and notifies the Production Editor that it is ready for layout.\nThe Layout Editor will apply CJILS formatting and prepare a galley.\nThe proof will be sent to the author for review and returns the article back to the editors.\nThat proof will be sent to the Proofreader to scan for any copyediting or formatting errors and returns the article back to the editors.\nThe Layout Editor then makes any changes, prepares metadata, and prepares accessibility features.\nThe article is ready for publication.\n\n\n\nProduction Timeline:\nThe table below shows the production timeline for each article. For most submissions, the initial copyedit, final copyedit and final proofread should be completed and returned within two weeks. The timeline below also applies to the authors’ copyedits and proofreading (unless there are particularly substantial changes; defer to the Editor if you have any questions).\n\n\n\n\n\n\n\n\n\n\n\nCopyedit 1\n(2 weeks)\nAuthor CE\n(2 week)\nCopyedit 2\n(2 week)\nLayout\n(2 weeks)\nAuthor Proof\n(1 week)\nFinal Proof\n(2 weeks)|\n\n\n\nIf you believe you will be unable to complete a submission in the usual time frame, please contact the Production Editor to let them know. Depending on your availability, the timeline may either be adjusted or reassigned to another copyeditor.\n\n\nCopyeditor Tasks and Workflow in OJS\nThe copyediting stage is intended to improve the readability of the writing: flow, clarity, grammar, wording, and formatting. It also represents the last chance for the author to make substantial changes to the text, as the next stage is restricted to typos and formatting corrections. Refer to the Copyeditor Tasks and Workflow in OJS for instructions on downloading/uploading files and communicating with authors and editors during the copyediting process.",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "general.html#initial-copyedit",
+    "href": "general.html#initial-copyedit",
+    "title": "Overview",
+    "section": "Initial Copyedit",
+    "text": "Initial Copyedit\n\nLocate the file to be copyedited in “Draft files”\n\n\n\n\n\n\n\nOpen the file.\nComplete the initial copyedit using Track Changes. \nYou are now ready to request that the author complete the Author Copyedit.\n\n…\n\nCopyediting and Style Guide\nCopyeditors and Proofreaders use the provided CJILS Copyediting and Style Guide document for instructions on how to edit and style the articles. We ask that you follow this closely and complete the copyediting checklist.\n\n\nCopyediting with Microsoft Word’s Track Changes\nTrack Changes (under Tools in the menu bar) enables the copyeditor to make insertions (text appears in color) and deletions (text appears crossed out in color or in the margins as deleted). You can insert comments to ask for clarification or make suggestions. The author should leave those changes with which they are satisfied. If further changes are necessary, the author can make changes to the initial insertions or deletions, as well as make new insertions or deletions elsewhere in the text. After the text has been reviewed by the author, the copyeditor will make a final pass over the text accepting the changes in preparation for the layout and galley stage. The copyeditor’s final copy should be a clean copy, free of any comments or track changes.\n\n\nAdditional sections and links to add:\n\nNotifying a copyeditor;\nemailing through CJILS copyeding group in the Dal MS mail;\nassigning by tiers; French vs English versions;\nresponsibilities of the copyeditor;\nuploading last draft from the copyeditor\ndiscussions between copyeditor and author\napproving copyedited version, sending to production",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "general.html#proofreading",
+    "href": "general.html#proofreading",
+    "title": "Overview",
+    "section": "Proofreading",
+    "text": "Proofreading\nThe proofreading stage is intended to catch any errors in spelling, grammar, punctuation, and formatting. More substantial changes cannot be made at this stage, unless discussed with the Editor.\n\nTasks and Workflow in OJS\nThe Proofreader will be sent the proof via the Production Discussions panel by the Production Editor. To download the article, open the discussion and download the attachment. To send back with any changes, use “Add Message” in the discussion to attach the file and send back to the editors.\n\nCopyediting/Style Guide and Layout\nProofreaders also use the provided CJILS Copyediting and Style Guide document for instructions on how to edit and style the articles. Proofreaders also use the Layout documents to proofread the formatting and layout of the articles.\n\n\nFor Spelling, Grammar, and Style Errors\nUse the comments tool in Adobe to request corrections. Provide “CHANGE-TO” instructions to the editor as follows. Highlight the text in question and provide instructions such as:\n\nCHANGE… then the others TO… than the others\nCHANGE… Malinowsky TO… Malinowski\n\n\n\nFor Formatting Errors\nUse the comments tool in Adobe to request corrections. Provide “FORMATTING” instructions to the editor as follows:\n\nFORMATTING The numbers in Table 3 are not aligned in the third column.\nFORMATTING The paragraph that begins “This last topic…” is not indented.",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "general.html#production",
+    "href": "general.html#production",
+    "title": "Overview",
+    "section": "Production",
+    "text": "Production\nFrom OJS 3.5…",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "general.html#publication",
+    "href": "general.html#publication",
+    "title": "Overview",
+    "section": "Publication",
+    "text": "Publication\nFrom OJS 3.5…",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "ojs.html",
+    "href": "ojs.html",
+    "title": "Open Journal System",
+    "section": "",
+    "text": "Upcoming…",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Open Journal System"
+    ]
+  },
+  {
+    "objectID": "overleaf.html",
+    "href": "overleaf.html",
+    "title": "Overleaf",
+    "section": "",
+    "text": "The Overleaf interface\nWe use an subscription to Overleaf for formatting the proofs and final versions of each work. You can find the login for our Overleaf account here.\nMore details on how to set up each Overleaf project will be included in the Copyediting section. This section contains resources for learning how to work with Overleaf and LateX.\nSome text",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overleaf"
+    ]
+  },
+  {
+    "objectID": "overleaf.html#latex",
+    "href": "overleaf.html#latex",
+    "title": "Overleaf",
+    "section": "LateX",
+    "text": "LateX\nSome tips and resources for learning LateX",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overleaf"
+    ]
+  },
+  {
+    "objectID": "checklist.html",
+    "href": "checklist.html",
+    "title": "Checklist",
+    "section": "",
+    "text": "General Guidelines",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Checklist"
+    ]
+  },
+  {
+    "objectID": "checklist.html#general-guidelines",
+    "href": "checklist.html#general-guidelines",
+    "title": "Checklist",
+    "section": "",
+    "text": "Working principles for copy editors\nIn their work, copyeditors should be encouraged to observe certain principles. They should:\n\nmake essential changes only — if authors write correctly, their own wording should be kept;\nmake the manuscript easy to read and correct;\ncomment constructively when comment is needed;\nlook for answers from reference sources or previous issues of the journal before putting queries to an author;\nkeep queries to the author short and to the point.\n\n\n\nCopyediting procedures\nOne possible method of working is to deal with all the required levels of editing together, during one or two readings of a manuscript, followed by a separate stage for cross-checking and styling references. Another method is to edit the language first, at the same time as substantive editing if this is required, followed by format and mechanical style, again with reference checking as a separate stage.",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Checklist"
+    ]
+  },
+  {
+    "objectID": "checklist.html#editing-checklists",
+    "href": "checklist.html#editing-checklists",
+    "title": "Checklist",
+    "section": "Editing Checklists",
+    "text": "Editing Checklists\n\nCJILS Specific Requirements\n\nDoes the first page include all the required information (title, author names, institution, abstract, keywords, Orcid ID if known)?\nAre the authors’ names and institution correct?\nIs an abstract of the correct kind included (50-100 words in length)?\nIs it unblinded? If not, check in with the Production Editor.\nIs the About the Author(s) statement properly positioned and marked?\nAre acknowledgements, if added, properly positioned and marked?\nDo the references have DOIs or links where applicable? Do the links work?\nDoes the manuscript follow Chicago Author-Date style? Including in-text citations and references?\n\n\n\nLevel 1. Checklist for mechanical style and format of text\n\nIs the manuscript complete?\nAre all files with tables etc. included?\nIf an appendix is included, is it properly positioned and marked?\nAre endnotes/footnotes, if any, clearly positioned and linked to their indicator symbols in the text?\nAre spelling and punctuation consistent? Is the spacing after punctuation correct?\nAre extracts and quotations clearly indicated and acknowledged?\nAre capital letters, small capitals, italics, and bold type clearly marked and used correctly and consistently?\nAre abbreviations and symbols used correctly and consistently? Are abbreviations other than recognized abbreviations for units explained at first mention and later used consistently?\nAre special scripts and accents clearly presented and used consistently?\nAre numerals correctly written? (see below)\nAre parentheses and brackets properly paired off?\n\n\n\nLevel 2. Checklist for tables and figures\n\nAre tables and figures referred to in the text in correct numerical order?\nDo tables and figures show what the text says they show?\nDo numbers and other references to table and figure contents match any details cited in the text?\n\n\nTables\n\nDo tables have clear titles, column headings, and footnotes, as needed?\nHave abbreviations in tables been explained?\nIs the arithmetic in tables correct — do numbers in table columns add up correctly, and are percentages correct?\n\n\n\nFigures\n\nAre line drawings clearly drawn?\nAre photographs of good quality?\nIf figures have been supplied electronically, are size and resolution acceptable?\n\n\n\n\nLevel 3. Checklist for citations and bibliographical references\n\nAre all citations in the text included in the reference list?\nAre all references in the list cited in the text?\nAre in-text citations and references unblinded?\nIf names and dates are given in the text, do they agree with those in the list?\nDoes the form of citations in the text match Chicago Author-Date?\nAre all the required parts of references included in the reference list according to Chicago Author-Date?\nAre those parts in the correct sequence and form?\nIs the punctuation correct?\nIs the typographical style (case, italics, bold) correct?\nIf journal titles are abbreviated, are abbreviations correct?\nDoes the form of references to books, reports, and other types of publication match the Chicago Author-Date?\nAre DOIs and links to e-articles present and valid?\n\n\n\nLevel 4. A checklist for language editing\n\nSpelling and punctuation\n\nIs the spelling correct and consistent, according to house style?\nAre quotation marks correctly used according to Chicago Author-Date?\nAre parentheses correctly placed?\nAre commas correctly used?\nAre hyphens and en and em dashes correctly used with proper spacing?\nHave apostrophes been kept to a minimum and been correctly used?\nAre colons and semicolons correctly used?\nHave exclamation marks and dashes been kept to a minimum?\n\n\n\nGrammar and syntax\n\nHas the passive voice been kept to a reasonable minimum?\nAre tenses used correctly and consistently?\nHave strings of three or more nouns been kept to a minimum?\nHave words been used in the right order?\n\n\n\nUsage\n\nIs usage correct according to current recommendations?\nHave words been used with precision?\nHave the simplest words and the simplest ways of writing been used?\nHave sexist, racist, or dehumanizing terms been transformed or removed?\n\nAdapted from O’Connor, Maeve, Margaret Cooter, and Sylwia B. Ufnalska. “1.1: Copy-editing scientific papers.” P. Smart, H. Maisonneuve & A. Polderman, eds (2013).",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Checklist"
+    ]
+  },
+  {
+    "objectID": "style_guide.html",
+    "href": "style_guide.html",
+    "title": "Style Guide",
+    "section": "",
+    "text": "Spelling\nUse the Chicago Style Guide as your guide.\nHouse style for spelling is Canadian, except when directly citing a source which uses different spelling. Spelling, including hyphenation, should be consistent throughout the manuscript—except for quotations, which must retain the spelling of the original, whether correct or incorrect.",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Style Guide"
+    ]
+  },
+  {
+    "objectID": "style_guide.html#spelling",
+    "href": "style_guide.html#spelling",
+    "title": "Style Guide",
+    "section": "",
+    "text": "Special cases:\n\nereaders and ebooks (not eBooks)\ninternet (not Internet)\nright-click and right-clicking (not right click)\nweb (not Web)\nhtml or other code as depicted in articles should be done with &lt;&gt; tags, (E.g., “We use the  tag to indicate …”)\n\nOtherwise, standard Canadian spelling includes:\n\nDefence\nCentre, theatre\nEndeavour, humour, colour\nKilometer and kilometre are both acceptable\n\nAdditional Technology Terms:\n\nemail\nebook\nereader\nDatabase\ndata set\nsmartphone\ninternet\nIntranet\nWi-Fi\nwebsite\nwebpage\nthe web\nhome page\nusername\nlogin page (but “log in”)\nemoji (for the plural, either when used as a verb) “emoji” or “emojis”)",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Style Guide"
+    ]
+  },
+  {
+    "objectID": "style_guide.html#punctuation",
+    "href": "style_guide.html#punctuation",
+    "title": "Style Guide",
+    "section": "Punctuation",
+    "text": "Punctuation\n\nCommas\nPay careful attention to the Chicago guidelines for using commas. They are usually overused by authors. Use the Oxford Comma, in citations and in regular text. E.g. Associated events can include author interviews, pubcrawls, lectures, online discussions, or even canoe trips.\n\n\nEm Dashes\nUse em dashes sparingly to provide more emphasis than commas and parentheses can provide. Refer to the Chicago Style Guide when doing so. Do not use a space before or after the dashes.\n\nExample:\nOrganizers must identify cultural literacies—unique to every MRE—that may act as barriers to participation.\n\nTo generate an em dash (roughly equivalent to the width of an uppercase M, in contrast to the ndash, which is as wide as an N) hold down Alt and press 0, 1, 5, 1 on your numeric keypad (or holding down Fn and Alt, on newer keyboards without a separate numpad). Or just copy it from here: —\n\n\nQuotations\nPunctuation sits inside quotation marks, even if the punctuation isn’t actually part of the quote.\n\n\nColons and Semicolons\nUse a colon to join two independent clauses when you wish to emphasize the second clause.\n\nExample:\nRoad construction in Dallas has hindered travel around town: parts of Main, Fifth, and West Street are closed during the construction.\n\nUse a colon after an independent clause when it is followed by a list, a quotation, appositive, or other ideas directly related to the independent clause.\n\nExample:\nJulie went to the store for some groceries: milk, bread, coffee, and cheese.\n\nIf the clause following the colon is itself a complete sentence, it should begin with a capital letter.\n\nExamples:\nFreud (1930) wrote of two urges: an urge toward union with others and an egoistic urge toward happiness.\nThey have agreed on the outcome: Informed participants perform better than do uninformed participants.\n\nUse a semicolon to join two independent clauses when the second clause restates the first or when the two clauses are of equal emphasis.\n\nExample:\nRoad construction in Dallas has hindered travel around town; streets have become covered with bulldozers, trucks, and cones.\n\nUse a semicolon to join two independent clauses when the second clause begins with a conjunctive adverb (however, therefore, moreover, furthermore, thus, meanwhile, nonetheless, otherwise) or a transition (in fact, for example, that is, for instance, in addition, in other words, on the other hand, even so).\n\nExample:\nTerrorism in the United States has become a recent concern; in fact, the concern for America’s safety has led to an awareness of global terrorism.\n\nUse a semicolon to join elements of a series when individual items of the series already include commas.\n\nExample:\nRecent sites of the Olympic Games include Athens, Greece; Salt Lake City, Utah; Sydney, Australia; Nagano, Japan.\n\n\n\nBullet Points\nBullet points should start with a capital and end with a period. Alternatively, if you wish to create a sentence structure with your list, you can end each item on the list with a semicolon (and the final item with a period).\n\n\nHyphenation\nSee section 7.81-89 of the Chicago Style Guide online for the hyphenation guide. In general, Chicago prefers a spare hyphenation style: if no suitable example or analogy can be found either in this section (7.81–89) or in the dictionary, hyphens should be added only if doing so will prevent a misreading or otherwise significantly aid comprehension. But, the reverse is also true: If the compound adjective is clear as it stands, you do not need a hyphen. This may sound like a judgment call, but the following guidelines can help you make the call in many cases. Adverbs ending in -ly are understood to modify the word that follows. Adding a hyphen would be redundant. For example, in the phrase “widely attended gatherings” readers understand that widely modifies attended. Adding a hyphen, to write this as “widely-attended gatherings,” would not give the reader any additional information.\nMore info available here: https://www-chicagomanualofstyle-org.proxy1.lib.uwo.ca/book/ed17/part2/ch07/psec089.html\nExample relevant cases:\n\n“Information-seeking behaviour” not “information seeking behaviour”\n“On” or “off campus” as a place and “off-campus” as a descriptor (off-campus access, off-campus students)\n“Full-text downloads” (instead of full text downloads)",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Style Guide"
+    ]
+  },
+  {
+    "objectID": "style_guide.html#grammar",
+    "href": "style_guide.html#grammar",
+    "title": "Style Guide",
+    "section": "Grammar",
+    "text": "Grammar\n\nPlural Nouns\n“Data” is a plural noun so must be followed by a verb in the plural.\n\nExample:\nOnce approval was granted from the University Ethics Review Board, the survey data were collected using the online survey tool.\n\n\n\nTense\nSelect tense carefully. By using verb tenses consistently, you can help ensure smooth expression. Past tense (e.g., “Smith showed,”) or present perfect tense (e.g., “researchers have shown”) or present tense (e.g. Smith presents similar results) are all appropriate for the literature review. Stay within the chosen tense. Use past tense (e.g., “Anxiety decreased significantly”) to describe the results. Use the present tense (e.g., “the results of Experiment 2 indicate”) to discuss implications of the results and to present the conclusions. By reporting the conclusions in the present tense, you allow readers to join you in deliberating the matter at hand.\n\n\nThat/Which\nThat clauses are essential to the meaning of the sentence (the materials that worked well in the first experiment were used in the second experiment). Which clauses can merely add further information (non-restrictive) or can be essential to the meaning (restrictive) of the sentence.\n\nRestrictive: The cards that worked well in the first experiment were not useful in the second experiment.\nNon-restrictive: The cards, which worked well in the first experiment, were not useful in the second experiment.\n\nConsistent use of that for restrictive clauses and which for non-restrictive clauses, which are set off with commas, will help you make your writing clear and precise.",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Style Guide"
+    ]
+  },
+  {
+    "objectID": "style_guide.html#citations",
+    "href": "style_guide.html#citations",
+    "title": "Style Guide",
+    "section": "Citations",
+    "text": "Citations\nRefer to the Chicago Style Guide for citation specifics or use the Author-Date Quick Guide.\nFor journal articles, only use the formatting for the issue info “11, no. 1 (Spring): 95-109” if you are including the season. Otherwise, it should appear as “11 (1): 95–109”.",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Style Guide"
+    ]
+  },
+  {
+    "objectID": "style_guide.html#numerals",
+    "href": "style_guide.html#numerals",
+    "title": "Style Guide",
+    "section": "Numerals",
+    "text": "Numerals\nSpell out:\n\nOne through nine when not used with units of measurement or used in comparisons with numbers 10 or greater\nLarge numbers that can be expressed as two words (four hundred, two thousand)\nAny number used to begin a sentence (unless it’s absolutely impossible to reword)\nNumbers one or zero (zero-tolerance policy)\nCommon fractions (one-third)\nCommon expressions (twenty-first century)\nCenturies (nineteenth century)\n\nUse combination of words and numerals:\n\nFor large numbers (3 million people, 4.5 million dollars)\nWhen numbers appears back-to-back (30 four-year-olds)\n\nUse numerals:\n\nFor any number with a precise unit of measurement\nTo describe a sample size, specific number of participants\nFor measures of time, ages, dates, exact sums of money (8:00 am; $56.78)\nFor statistical or mathematical functions, proportions, ratios, percentages (use %)\nUse numerals and spell out “percent” for non-technical contexts",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Style Guide"
+    ]
+  },
+  {
+    "objectID": "style_guide.html#tables",
+    "href": "style_guide.html#tables",
+    "title": "Style Guide",
+    "section": "Tables",
+    "text": "Tables\nTitles and subtitles should sit outside of tables rather than inside a merged-across cell. Tables containing multiple sections titled or subtitled with merged-across cells should be broken into separate tables.",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Style Guide"
+    ]
+  },
+  {
+    "objectID": "style_guide.html#general-style-guidelines",
+    "href": "style_guide.html#general-style-guidelines",
+    "title": "Style Guide",
+    "section": "General Style Guidelines",
+    "text": "General Style Guidelines\n\nIf a research article is based on a survey, we prefer to include the survey instrument in an appendix.\nAvoid slang and colloquial language. The “take home message” is: don’t plan a library event on a Friday. Preferred style: In short: don’t plan a library event on a Friday.\nAvoid needless words. Instead of a construction like “The question as to whether,” simply “Whether” would be preferred.\n\n\nRather than:\nTherefore, this study reports on member perceptions of diversity through various aspects of board work such as…\nThe following is preferred:\nThis study reports on board member perceptions of diversity in the areas of…\nRather than:\nin spite of the fact that\nThe following is preferred:\nthough or although\nRather than:\nThe job was unattractive in terms of salary\nThe following is preferred:\nThe salary made the job unattractive.\n\n\nUse the appropriate prepositions for idiomatic phrases. When more than one phrase appears in a sentence, use the right preposition for each phrase:\n\nExample:\nHis speech was marked by disagreement with and scorn for his opponent’s policies.\n\nAvoid use of quotation marks to hedge or downplay meaning.\n\n\nCorrect: The teacher rewarded the class with tokens.\nIncorrect: The teacher “rewarded” the class with tokens.\n\n\nAvoid hedging words like apparently, comparatively, fairly, partially, relatively, unless absolutely necessary!\nAvoid the abstract, vacuous language of metaconcepts (concepts that are containers for concepts).\nAvoid nominalization (when a verb becomes an abstract noun) as much as possible. These are also known as “zombie nouns” because they lack a human agent. Look out for the long words that end in -ment, -ation, -ance and see if they can turn back into verbs instead.\n\nE.g. We implemented a postponement of the event due to the weather.\nPreferred style: We postponed the event due to the weather.\n\nAll acronyms must be spelled out in full the first time they are used in an article along with the acronym in parentheses. There are some exceptions—acronyms that all readers would be expected to know, and so would not need to be spelled out. (HTML, URL, MARC)\nSpell out lesser known or unique acronyms (Rules for Archival Description, Metadata Object Description Schema, Ontario LIbrary Association. Unusual acronyms may be spelled in full throughout the article to take the burden off the reader to remember what they stand for.",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Style Guide"
+    ]
+  },
+  {
+    "objectID": "header.html",
+    "href": "header.html",
+    "title": "Header",
+    "section": "",
+    "text": "First page header\nThe first page header contains the following information",
+    "crumbs": [
+      "LaTeX",
+      "Header"
+    ]
+  },
+  {
+    "objectID": "header.html#first-page-header",
+    "href": "header.html#first-page-header",
+    "title": "Header",
+    "section": "",
+    "text": "The journal title in both language and capitalized (should already be in the template).\nThe volume number\nThe issue number\nDOI\nDocument type\n\n```{latex}\n\\journal{\\scriptsize{The Canadian Journal of Information and Library Science - La Revue canadienne des sciences de l'information et de bibliothéconomie (CJILS-RCSIB)}}\n\\volume{\\scriptsize{Vol. vv, No. i (yyyy) \n\\\\ \nDOI: 10.5206/cjils-rcsib.v--i-.-----\n\\\\ \n\\textbf{\\textit{Conference paper}}}} % Document type \n\n```",
+    "crumbs": [
+      "LaTeX",
+      "Header"
+    ]
+  },
+  {
+    "objectID": "header.html#running-head",
+    "href": "header.html#running-head",
+    "title": "Header",
+    "section": "Running Head",
+    "text": "Running Head\n\nOdd Pages\n```{latex}\n\\shorttitle{CJILS/RCSIB Vol. 47, No. 2 (2024). DOI: 10.5206/cjils-rcsib.v-i--.--}\n\n```\n\n\nEven Pages\n```{latex}\n\\leftheader{Lastname and Lastname}\n\n```",
+    "crumbs": [
+      "LaTeX",
+      "Header"
+    ]
+  },
+  {
+    "objectID": "header.html#summary",
+    "href": "header.html#summary",
+    "title": "Header",
+    "section": "Summary",
+    "text": "Summary",
+    "crumbs": [
+      "LaTeX",
+      "Header"
+    ]
+  },
+  {
+    "objectID": "title-page.html",
+    "href": "title-page.html",
+    "title": "Title page",
+    "section": "",
+    "text": "Title",
+    "crumbs": [
+      "LaTeX",
+      "Title page"
+    ]
+  },
+  {
+    "objectID": "title-page.html#abstract",
+    "href": "title-page.html#abstract",
+    "title": "Title page",
+    "section": "Abstract",
+    "text": "Abstract",
+    "crumbs": [
+      "LaTeX",
+      "Title page"
+    ]
+  },
+  {
+    "objectID": "title-page.html#keywords",
+    "href": "title-page.html#keywords",
+    "title": "Title page",
+    "section": "Keywords",
+    "text": "Keywords",
+    "crumbs": [
+      "LaTeX",
+      "Title page"
+    ]
+  },
+  {
+    "objectID": "title-page.html#authors",
+    "href": "title-page.html#authors",
+    "title": "Title page",
+    "section": "Authors",
+    "text": "Authors",
+    "crumbs": [
+      "LaTeX",
+      "Title page"
+    ]
+  },
+  {
+    "objectID": "title-page.html#orcid",
+    "href": "title-page.html#orcid",
+    "title": "Title page",
+    "section": "ORCID",
+    "text": "ORCID",
+    "crumbs": [
+      "LaTeX",
+      "Title page"
+    ]
+  },
+  {
+    "objectID": "title-page.html#affiliations",
+    "href": "title-page.html#affiliations",
+    "title": "Title page",
+    "section": "Affiliations",
+    "text": "Affiliations",
+    "crumbs": [
+      "LaTeX",
+      "Title page"
+    ]
+  },
+  {
+    "objectID": "title-page.html#authors-with-multiple-affiliations",
+    "href": "title-page.html#authors-with-multiple-affiliations",
+    "title": "Title page",
+    "section": "Authors with Multiple Affiliations",
+    "text": "Authors with Multiple Affiliations",
+    "crumbs": [
+      "LaTeX",
+      "Title page"
+    ]
+  },
+  {
+    "objectID": "title-page.html#corresponding-author",
+    "href": "title-page.html#corresponding-author",
+    "title": "Title page",
+    "section": "Corresponding Author",
+    "text": "Corresponding Author",
+    "crumbs": [
+      "LaTeX",
+      "Title page"
+    ]
+  },
+  {
+    "objectID": "main.html",
+    "href": "main.html",
+    "title": "Main text",
+    "section": "",
+    "text": "Overview",
+    "crumbs": [
+      "LaTeX",
+      "Main text"
+    ]
+  },
+  {
+    "objectID": "main.html#sections",
+    "href": "main.html#sections",
+    "title": "Main text",
+    "section": "Sections",
+    "text": "Sections\n\\section{level 1 heading}\n\\subsection{level 2 heading}\n\\subsubsection{level 3 heading}\n\\subsubsubsection{level 4 heading}",
+    "crumbs": [
+      "LaTeX",
+      "Main text"
+    ]
+  },
+  {
+    "objectID": "main.html#paragraphs",
+    "href": "main.html#paragraphs",
+    "title": "Main text",
+    "section": "Paragraphs",
+    "text": "Paragraphs\nThere is no particular code to write for a paragraph. Just put the text, and put a line break in between paragraphs.\nThis is a paragraph.\n\nThis is another paragraph.",
+    "crumbs": [
+      "LaTeX",
+      "Main text"
+    ]
+  },
+  {
+    "objectID": "main.html#lists",
+    "href": "main.html#lists",
+    "title": "Main text",
+    "section": "Lists",
+    "text": "Lists\n\nBullet points\n\\begin{itemize}\n  \\item This is the first bullet point\n  \\item This is the second bullet point\n  \\item this is the third bullet point\n\\end{itemize}\n\n\nNumbered lists\n\\begin{enumerate}\n  \\item This is the first item\n  \\item This is the second item\n  \\item this is the third item\n\\end{enumerate}\n\n\nSpacing between list items\nBy default there will be a empty line between bullet points. That’s usually undesirable unless the bullets contain long multi-line text and spacing them out improves readability. So you will often use \\tightlist to reduce the space between the items. Like this:\n\\begin{itemize}\n  \\tightlist\n  \\item This is the first bullet point\n  \\item This is the second bullet point\n  \\item this is the third bullet point\n\\end{itemize}",
+    "crumbs": [
+      "LaTeX",
+      "Main text"
+    ]
+  },
+  {
+    "objectID": "main.html#footnotes",
+    "href": "main.html#footnotes",
+    "title": "Main text",
+    "section": "Footnotes",
+    "text": "Footnotes\nThis is a text.\\footnote{and this is the footnote for that text.}",
+    "crumbs": [
+      "LaTeX",
+      "Main text"
+    ]
+  },
+  {
+    "objectID": "main.html#citations",
+    "href": "main.html#citations",
+    "title": "Main text",
+    "section": "Citations",
+    "text": "Citations\nAt this point we write citations manually, directly in the paragraph so there is nothing specific to do other than making sure they are in proper APA 7 format.\nThis is a bit of text in a paragraph (Some author, 2022).",
+    "crumbs": [
+      "LaTeX",
+      "Main text"
+    ]
+  },
+  {
+    "objectID": "main.html#quotes",
+    "href": "main.html#quotes",
+    "title": "Main text",
+    "section": "Quotes",
+    "text": "Quotes\nQuotes can go straight in the text when less than 40 words or three lines, otherwise use a long quote.\n\\begin{quote}\n  This is a quote \n\\end{quote}",
+    "crumbs": [
+      "LaTeX",
+      "Main text"
+    ]
+  },
+  {
+    "objectID": "main.html#hyperlinks",
+    "href": "main.html#hyperlinks",
+    "title": "Main text",
+    "section": "Hyperlinks",
+    "text": "Hyperlinks\nuse the \\url{}\n\\url{https://www.somewebsite.ca/}",
+    "crumbs": [
+      "LaTeX",
+      "Main text"
+    ]
+  },
+  {
+    "objectID": "figures.html",
+    "href": "figures.html",
+    "title": "Figures",
+    "section": "",
+    "text": "Upcoming…",
+    "crumbs": [
+      "LaTeX",
+      "Figures"
+    ]
+  },
+  {
+    "objectID": "tables.html",
+    "href": "tables.html",
+    "title": "Tables",
+    "section": "",
+    "text": "One vs two column tables",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#one-vs-two-column-tables",
+    "href": "tables.html#one-vs-two-column-tables",
+    "title": "Tables",
+    "section": "",
+    "text": "Single Column Table\n\\begin{table}\n  \\begin{tabular}\n  \\end{tabular}\n\\end{table}\n\n\nTwo-Column Table\n\\begin{table*}\n  \\begin{tabularx}\n  \\end{tabularx}\n\\end{table*}\n\n\nLong Tables\n\nTwo column\n\\begin{table*}\n  \\begin{longtable}\n  \\end{longtable}\n\\end{table*}",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#table-position",
+    "href": "tables.html#table-position",
+    "title": "Tables",
+    "section": "Table Position",
+    "text": "Table Position\nLaTeX will not always put your table exactly where you placed it in the text due to its internal layout rules. If the default position is not ideal, you can attempt giving LaTeX some instructions to better position the table.\nIf you’re happy with the table placement, you don’t have to do anything.\n\nSpecifiers\n\n\n\n\n\n\n\nSpecifier\nMeaning\n\n\n\n\nh\nPlace the table here, roughly at the current location\n\n\nt\nPlace the table at the top of the page\n\n\nb\nPlace the table at the bottom of the page\n\n\np\nPlace the table on a separate page for floats only\n\n\n!\nOverride LaTeX’s internal float placement rules\n\n\nH\nPlace the table exactly here (requires float package)\n\n\n\n\n\nExample\n\\begin{table*}\n  \\begin{longtable}\n  \\end{longtable}\n\\end{table*}\n\n\nTips and tricks\n\nYou can combine them (e.g.,[htbp!] )to give LaTeX flexibility while nudging it toward your preferred location.\nIt is recommended not to use [h] alone, as it can sometimes be ignored. Prefer [ht] or [htbp].\n\n\n\n\n\n\n\nDo not fight LaTeX\n\n\n\nOften, you might find that latex is not at all cooperating with you when it comes to positioning tables. My advice is to not die on that hill. Your table is showing up somewhere in the document. It looks good, but it’s not where you want it, so you spend a few minutes trying different strategies to move it to a better spot. No luck? Just move on.",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#caption",
+    "href": "tables.html#caption",
+    "title": "Tables",
+    "section": "Caption",
+    "text": "Caption\nThe caption is the first element in the table.\n\\caption{\\label{tbl-mytable}\\textit{title of the table goes here}}",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#columns",
+    "href": "tables.html#columns",
+    "title": "Tables",
+    "section": "Columns",
+    "text": "Columns\n\\begin{tabularx}{\\textwidth}{%\n  &gt;{\\raggedright\\arraybackslash}p{1.5in} \n  &gt;{\\raggedright\\arraybackslash}p{2.5in}\n  &gt;{\\raggedleft\\arraybackslash}p{2.5in} \n}\n\nAlignment\n\nleft: \\raggedright\\arraybackslash\ncenter: \\centeringt\\arraybackslash\nright: \\raggedleftt\\arraybackslash\n\n\n\nColumn width\nthe {\\textwidth} part of the code above ensures sets your table to cover the whole horizontal space it has available.\nThe dimentions indicated in the format p{1.5in} is the part that actually sets the width of the column. You should make sure that the column width is optimal for the content, and that the total of all the column width is equal to the witdth of the horizontal space availabe.\nFor single column table, the total available space is 8.65cm or 3.41in. For a two-column table, the total available space is about 16.51cm or 6.5in. As you can see in the latex code above, the total for the three column is actually 6.5 inches because the table is spanning two columns (as indicated by the use of tabularx.",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#linebreak-after-caption",
+    "href": "tables.html#linebreak-after-caption",
+    "title": "Tables",
+    "section": "Linebreak after caption",
+    "text": "Linebreak after caption\nAdd \\tabularnewline before you start adding rows to the table. Like this.\n\n  &gt;{\\raggedright\\arraybackslash}p{1.5in} \n  &gt;{\\raggedright\\arraybackslash}p{2.5in}\n  &gt;{\\raggedleft\\arraybackslash}p{2.5in} \n}\n\\tabularnewline",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#rows",
+    "href": "tables.html#rows",
+    "title": "Tables",
+    "section": "Rows",
+    "text": "Rows\n\nEach cell is separated by an ampersand (&).\nEach row ends with two backslashes (linebreak): \\\\\n\nHere is an example.\nfirst cell content & second cell content & third cell content \\\\",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#borders",
+    "href": "tables.html#borders",
+    "title": "Tables",
+    "section": "Borders",
+    "text": "Borders\n\n\\toprule for the boder at the top of the table.\n\\midrule for the border below the header row.\n\\bottomrule for the border at the end of the table.\n\\cline{} for a line that doesn’t go across the entire table but just for a specific set of columns. For example, \\cline{2-3} will draw a line only for columns 2 and 3.\n\nHere is an example. Note that the \\textbf{} is used to make the column header bold, which is the standard practice for CJILS manuscript.\n\\toprule\n\\textbf{First name} & \\textbf{Last name} & \\textbf{Date of birth} \\\\\n\\midrule\nJohn & Smith & July 14, 1975 \\\\\nMary & Robinson & March 6, 1979 \\\\\n\\bottomrule",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#merging-rows-and-columns",
+    "href": "tables.html#merging-rows-and-columns",
+    "title": "Tables",
+    "section": "Merging rows and columns",
+    "text": "Merging rows and columns\n\nMerging columns\nIf you want for a cell to span two columns, you can do this with \\multicolumn{}{}{}. The first curly bracket is for the numbers of columns to span, the second is for alignment (l, c, or r), and the third is for the content. Here is an example where I merge the last two columns for the first row. The table has three columns, so every row should have two &. However, we can see that the first row as only one & and a cell spanning 2 columns.\n  \\begin{tabular}{\n    &gt;{\\raggedright\\arraybackslash}p{5.25cm}\n    &gt;{\\raggedleft\\arraybackslash}p{1cm}\n    &gt;{\\raggedleft\\arraybackslash}p{1cm}\n  }\n  \\toprule\n   & \\multicolumn{2}{r}{Publication} \\\\\n  Country & N & Pct. \\\\\n  \\midrule\n  Canada & 20 & 80\\% \\\\\n  United States & 5 & 20\\% \\\\\n  \\bottomrule\n\n\nMerging rows\nMerging rows kind of works the same way with \\multirow{number of rows}{*}{content}.I’m not too sure what the star does, but it’s normally there.\n  \\toprule\n  \\multirow{2}{*}{Country} & \\multicolumn{2}{r}{Publication} \\\\\n  & N & Pct. \\\\\n  \\midrule\n  Canada & 20 & 80\\% \\\\\n  United States & 5 & 20\\% \\\\\n  \\bottomrule",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#notes",
+    "href": "tables.html#notes",
+    "title": "Tables",
+    "section": "Notes",
+    "text": "Notes\nAdding footnotes to a table is done manually, by adding the a superscript in the cell that will refer to the note, and then adding a row that spans all columns at the end of the table. Note that the \\\\[-1.75ex] is there to add a small space between the last column and the footnote.\n\\toprule\n\\textbf{First name} & \\textbf{Last name} & \\textbf{Date of birth}\n\\bottomrule\\textit{\\textsuperscript{*}} \\\\\n\\midrule\nJohn & Smith & July 14, 1975 \\\\\nMary & Robinson & March 6, 1979 \\\\\n\\bottomrule\n\\\\[-1.75ex]\n\\multicolumn{3}{l}{\\textsuperscript{*}This is a table not related to the date of birth column.} \\\\",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#putting-it-all-together",
+    "href": "tables.html#putting-it-all-together",
+    "title": "Tables",
+    "section": "Putting it all together",
+    "text": "Putting it all together\n\\begin{table}\n  \\caption{Distribution of CJILS publications by country}\n  \\label{test}\n  \\begin{tabular}{\n    &gt;{\\raggedright\\arraybackslash}p{5.25cm}\n    &gt;{\\raggedleft\\arraybackslash}p{1cm}\n    &gt;{\\raggedleft\\arraybackslash}p{1cm}\n  }\n  \\\\\n  \\toprule\n  \\multirow{2}[b]{*}[-1.75ex]{Country} & \\multicolumn{2}{r}{Publication\\textsuperscript{*}} \\\\\n  \\cline{2-3}\n  \\\\[-1.75ex]\n  & N & Pct. \\\\\n  \\midrule\n  Canada & 20 & 80\\% \\\\\n  United States & 5 & 20\\% \\\\\n  \\bottomrule\n  \\\\[-1.75ex]\n  \\multicolumn{3}{l}{\\textsuperscript{*}Only includes research articles.}\n  \\end{tabular}\n\\end{table}",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "tables.html#tips-and-tricks-1",
+    "href": "tables.html#tips-and-tricks-1",
+    "title": "Tables",
+    "section": "Tips and tricks",
+    "text": "Tips and tricks\n\nCopy pasting from Word\nYou don’t need to design your table from scratch, when in visual mode in Overleaf, you can copy and paste the table from word and you will just have to edit the automatically generated code rather than starting from scratch. This can save a lot of time.\n\n\nCopilot\nCopilot (or other AI tools I would imagine) can help you fix your table…. it’s not working. Copy your entire code from \\begin{table} to \\end{table} in a prompt that looks like this:\n\nThis does not work:\n[paste your code here.]\n\nOf course, you can be more specific about the issue.",
+    "crumbs": [
+      "LaTeX",
+      "Tables"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Tip and tricks\nreferences start with \\begin{CSLReferences}{1}{} and end with \\end{CSLReferences}.\nEach reference is a \\bititem{}. You can write a label for each reference (e.g. \\bibitem{abedin2018}) but it`s not necessary. The references should be formatted according to the APA 7 format, manually (but see the tips and tricks below for a time saver).\nYou can give the list of references to Copilot and ask it to format it for you and even get the DOIs.",
+    "crumbs": [
+      "LaTeX",
+      "References"
+    ]
+  },
+  {
+    "objectID": "references.html#tip-and-tricks",
+    "href": "references.html#tip-and-tricks",
+    "title": "References",
+    "section": "",
+    "text": "Format this list of references in APA7 for latex using \\CSLReferences. Also, get the DOI when its missing and include the DOI as a URL using \\url{}:\n\n[Paste your references here]",
+    "crumbs": [
+      "LaTeX",
+      "References"
+    ]
+  },
+  {
+    "objectID": "appendices.html",
+    "href": "appendices.html",
+    "title": "Appendices",
+    "section": "",
+    "text": "Upcoming…",
+    "crumbs": [
+      "LaTeX",
+      "Appendices"
+    ]
+  },
+  {
+    "objectID": "varia.html",
+    "href": "varia.html",
+    "title": "Varia",
+    "section": "",
+    "text": "Dealing with non-latin languages",
+    "crumbs": [
+      "LaTeX",
+      "Varia"
+    ]
+  },
+  {
+    "objectID": "varia.html#dealing-with-non-latin-languages",
+    "href": "varia.html#dealing-with-non-latin-languages",
+    "title": "Varia",
+    "section": "",
+    "text": "Make sure newtx package is not loaded in the preamble\n\n\n\nThis package creates a conflict and your document will not text in foreign languages.\n\n\n\nArabic example\nThe following code needs to be added to the preamble.\n\\usepackage[bidi=default,english]{babel}\n\\babelprovide[import]{arabic}\n\\babelfont[arabic]{rm}{Amiri}\nThen Arabic text can be added to the document like this:\n\\foreignlanguage{arabic}{(جائحة)}\n\n\nIndigenous languages example\n\nIn the preamble\n\\usepackage{fontspec}\n\\newfontfamily\\inuktitutfont{Noto Sans Canadian Aboriginal}\n\n\nIn the text\n{\\inuktitutfont ᓄᓇᕗᒻᒥ ᐅᖃᓕᒫᒐᖃᕐᕕᒻᒥᑦ ᑎᑭᓵᒃᓴᐃᑦ}",
+    "crumbs": [
+      "LaTeX",
+      "Varia"
+    ]
+  }
+]

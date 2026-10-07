@@ -31,3 +31,4 @@ Whether you're a seasoned language professional or newly joining the CJILS edito
 -   [Tables](tables.qmd)
 -   [References](references.qmd)
 -   [Appendices](appendices.qmd)
+-   [Varia](varia.qmd)

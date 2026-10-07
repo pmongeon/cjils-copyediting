@@ -3,7 +3,7 @@
 references start with **\\begin{CSLReferences}{1}{}** and end with **\\end{CSLReferences}**.\
 Each reference is a **\\bititem{}**. You can write a label for each reference (e.g. \\bibitem{abedin2018}) but it\`s not necessary. The references should be formatted according to the APA 7 format, manually (but see the tips and tricks below for a time saver).
 
-```{latex}
+```{latex}}
 \section{References}
 \begin{CSLReferences}{1}{0}
 

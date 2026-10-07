@@ -4,7 +4,7 @@
 
 ## Sections
 
-```{latex}
+```{latex}}
 \section{level 1 heading}
 \subsection{level 2 heading}
 \subsubsection{level 3 heading}
@@ -15,7 +15,7 @@
 
 There is no particular code to write for a paragraph. Just put the text, and put a line break in between paragraphs.
 
-```{latex}
+```{latex}}
 This is a paragraph.
 
 This is another paragraph.
@@ -25,7 +25,7 @@ This is another paragraph.
 
 ### Bullet points
 
-```{latex}
+```{latex}}
 \begin{itemize}
   \item This is the first bullet point
   \item This is the second bullet point
@@ -35,7 +35,7 @@ This is another paragraph.
 
 ### Numbered lists
 
-```{latex}
+```{latex}}
 \begin{enumerate}
   \item This is the first item
   \item This is the second item
@@ -47,7 +47,7 @@ This is another paragraph.
 
 By default there will be a empty line between bullet points. That's usually undesirable unless the bullets contain long multi-line text and spacing them out improves readability. So you will often use **\\tightlist** to reduce the space between the items. Like this:
 
-```{latex}
+```{latex}}
 \begin{itemize}
   \tightlist
   \item This is the first bullet point
@@ -58,7 +58,7 @@ By default there will be a empty line between bullet points. That's usually unde
 
 ## Footnotes
 
-```{latex}
+```{latex}}
 This is a text.\footnote{and this is the footnote for that text.}
 ```
 
@@ -66,7 +66,7 @@ This is a text.\footnote{and this is the footnote for that text.}
 
 At this point we write citations manually, directly in the paragraph so there is nothing specific to do other than making sure they are in proper APA 7 format.
 
-```{latex}
+```{latex}}
 This is a bit of text in a paragraph (Some author, 2022).
 ```
 
@@ -74,7 +74,7 @@ This is a bit of text in a paragraph (Some author, 2022).
 
 Quotes can go straight in the text when less than 40 words or three lines, otherwise use a long quote.
 
-```{latex}
+```{latex}}
 \begin{quote}
   This is a quote 
 \end{quote}
@@ -84,6 +84,6 @@ Quotes can go straight in the text when less than 40 words or three lines, other
 
 use the **\\url{}**
 
-```{latex}
+```{latex}}
 \url{https://www.somewebsite.ca/}
 ```

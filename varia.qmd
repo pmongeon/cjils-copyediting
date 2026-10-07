@@ -12,7 +12,7 @@ This package creates a conflict and your document will not text in foreign langu
 
 The following code needs to be added to the preamble.
 
-```{latex}
+```{latex}}
 \usepackage[bidi=default,english]{babel}
 \babelprovide[import]{arabic}
 \babelfont[arabic]{rm}{Amiri}
@@ -20,7 +20,7 @@ The following code needs to be added to the preamble.
 
 Then Arabic text can be added to the document like this:
 
-```{latex}
+```{latex}}
 \foreignlanguage{arabic}{(جائحة)}
 ```
 
@@ -28,13 +28,13 @@ Then Arabic text can be added to the document like this:
 
 #### In the preamble
 
-```{latex}
+```{latex}}
 \usepackage{fontspec}
 \newfontfamily\inuktitutfont{Noto Sans Canadian Aboriginal}
 ```
 
 #### In the text
 
-```{latex}
+```{latex}}
 {\inuktitutfont ᓄᓇᕗᒻᒥ ᐅᖃᓕᒫᒐᖃᕐᕕᒻᒥᑦ ᑎᑭᓵᒃᓴᐃᑦ}
 ```

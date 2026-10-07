@@ -10,7 +10,7 @@ The first page header contains the following information
 -   DOI
 -   Document type
 
-```{latex}
+```{{latex}}
 \journal{\scriptsize{The Canadian Journal of Information and Library Science - La Revue canadienne des sciences de l'information et de bibliothéconomie (CJILS-RCSIB)}}
 \volume{\scriptsize{Vol. vv, No. i (yyyy) 
 \\ 
@@ -24,14 +24,14 @@ DOI: 10.5206/cjils-rcsib.v--i-.-----
 
 ### Odd Pages
 
-```{latex}
+```{{latex}}
 \shorttitle{CJILS/RCSIB Vol. 47, No. 2 (2024). DOI: 10.5206/cjils-rcsib.v-i--.--}
 
 ```
 
 ### Even Pages
 
-```{latex}
+```{{latex}}
 \leftheader{Lastname and Lastname}
 
 ```
