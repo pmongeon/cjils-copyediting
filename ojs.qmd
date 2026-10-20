@@ -1,7 +1,13 @@
 # Open Journal System {.unnumbered}
 
-Resources
+## Resources
 
-Metadata
+### Metadata Guide in OJS
 
 -   [Erudit Metadata Guide](https://www.erudit.org/public/guides/ojs-metadata.pdf)
+
+### OJS 3.5 Manual
+
+-   [Publication and post-publication](https://docs.pkp.sfu.ca/learning-ojs/editorial-workflow/en/publication.html)
+
+-   [Using OJS for multiple languages](https://docs.pkp.sfu.ca/multiling-guide/en/)

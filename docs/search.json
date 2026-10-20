@@ -112,7 +112,18 @@
     "href": "ojs.html",
     "title": "Open Journal System",
     "section": "",
-    "text": "Resources\nMetadata\n\nErudit Metadata Guide",
+    "text": "Resources",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Open Journal System"
+    ]
+  },
+  {
+    "objectID": "ojs.html#resources",
+    "href": "ojs.html#resources",
+    "title": "Open Journal System",
+    "section": "",
+    "text": "Metadata Guide in OJS\n\nErudit Metadata Guide\n\n\n\nOJS 3.5 Manual\n\nPublication and post-publication\nUsing OJS for multiple languages",
     "crumbs": [
       "Copyediting Process and Tools",
       "Open Journal System"
