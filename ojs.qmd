@@ -1,3 +1,7 @@
 # Open Journal System {.unnumbered}
 
-Upcoming...
+Resources
+
+Metadata
+
+-   [Erudit Metadata Guide](https://www.erudit.org/public/guides/ojs-metadata.pdf)

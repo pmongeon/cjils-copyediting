@@ -8,9 +8,9 @@ format:
 
 # Introduction {.unnumbered}
 
-Welcome to the official guide for supporting the copyediting process of manuscripts submitted to the *Canadian Journal of Information and Library Science (CJILS)*. This resource is designed to assist the journal editors, managers, and copyeditors editors in preparing CJILS articles for publication—ensuring clarity, consistency, and compliance with journal style.
+Welcome to the official guide for supporting the editorial process of manuscripts submitted to the *Canadian Journal of Information and Library Science (CJILS)*. This resource is designed to assist the journal editors, managers, and copyeditors editors in preparing CJILS articles for publication—ensuring clarity, consistency, and compliance with journal style.
 
-Whether you're a seasoned language professional or newly joining the CJILS editorial workflow, this guide provides step-by-step instructions, templates, checklists, and formatting support tailored to the specific needs of our journal.
+Whether you're a seasoned professional or newly joining the CJILS editorial workflow, this guide provides step-by-step instructions, templates, checklists, and formatting support tailored to the specific needs of our journal.
 
 ## Contents
 

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "CJILS Copyediting and Layout Manual",
     "section": "",
-    "text": "Introduction\nWelcome to the official guide for supporting the copyediting process of manuscripts submitted to the Canadian Journal of Information and Library Science (CJILS). This resource is designed to assist the journal editors, managers, and copyeditors editors in preparing CJILS articles for publication—ensuring clarity, consistency, and compliance with journal style.\nWhether you’re a seasoned language professional or newly joining the CJILS editorial workflow, this guide provides step-by-step instructions, templates, checklists, and formatting support tailored to the specific needs of our journal.",
+    "text": "Introduction\nWelcome to the official guide for supporting the editorial process of manuscripts submitted to the Canadian Journal of Information and Library Science (CJILS). This resource is designed to assist the journal editors, managers, and copyeditors editors in preparing CJILS articles for publication—ensuring clarity, consistency, and compliance with journal style.\nWhether you’re a seasoned professional or newly joining the CJILS editorial workflow, this guide provides step-by-step instructions, templates, checklists, and formatting support tailored to the specific needs of our journal.",
     "crumbs": [
       "Introduction"
     ]
@@ -112,7 +112,7 @@
     "href": "ojs.html",
     "title": "Open Journal System",
     "section": "",
-    "text": "Upcoming…",
+    "text": "Resources\nMetadata\n\nErudit Metadata Guide",
     "crumbs": [
       "Copyediting Process and Tools",
       "Open Journal System"
@@ -123,18 +123,29 @@
     "href": "overleaf.html",
     "title": "Overleaf",
     "section": "",
-    "text": "The Overleaf interface\nWe use an subscription to Overleaf for formatting the proofs and final versions of each work. You can find the login for our Overleaf account here.\nMore details on how to set up each Overleaf project will be included in the Copyediting section. This section contains resources for learning how to work with Overleaf and LateX.\nSome text",
+    "text": "The Overleaf interface\nWe use an subscription to Overleaf for formatting the proofs and final versions of each work. You can find the login for our Overleaf account here.\nMore details on how to set up each Overleaf project will be included in the Copyediting section. This section contains resources for learning how to work with Overleaf and setting up new projects\nSome text",
     "crumbs": [
       "Copyediting Process and Tools",
       "Overleaf"
     ]
   },
   {
-    "objectID": "overleaf.html#latex",
-    "href": "overleaf.html#latex",
+    "objectID": "overleaf.html#setting-up-a-new-project",
+    "href": "overleaf.html#setting-up-a-new-project",
     "title": "Overleaf",
-    "section": "LateX",
-    "text": "LateX\nSome tips and resources for learning LateX",
+    "section": "Setting up a new project",
+    "text": "Setting up a new project\nSome text",
+    "crumbs": [
+      "Copyediting Process and Tools",
+      "Overleaf"
+    ]
+  },
+  {
+    "objectID": "overleaf.html#exporting-the-pdf",
+    "href": "overleaf.html#exporting-the-pdf",
+    "title": "Overleaf",
+    "section": "Exporting the PDF",
+    "text": "Exporting the PDF\nSome text",
     "crumbs": [
       "Copyediting Process and Tools",
       "Overleaf"
