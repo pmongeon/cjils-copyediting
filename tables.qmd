@@ -197,7 +197,7 @@ Mary & Robinson & March 6, 1979 \\
 
 ## Putting it all together
 
-```{latex}}
+```{latex}}https://www.crossref.org/documentation/register-maintain-records/verify-your-registration/troubleshooting-submissions/}
 \begin{table}
   \caption{Distribution of CJILS publications by country}
   \label{test}

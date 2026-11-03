@@ -266,6 +266,21 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="https://docs.pkp.sfu.ca/learning-ojs/editorial-workflow/en/publication.html">Publication and post-publication</a></p></li>
 <li><p><a href="https://docs.pkp.sfu.ca/multiling-guide/en/">Using OJS for multiple languages</a></p></li>
 </ul>
+<p>Updating metadata</p>
+<p>Should you need to update an published article, you will need to first unpublish the article, make the necessary adjustments, then republish. Once you have done this, you may need to push the metadata to Crossref. Go to DOI, then select the article, and under ‘Bulk Actions’ you can select ‘Deposit DOIs’. This will ask you for confirmation.</p>
+<p>You should receive a confirmation email, (if your email is in the Settings for the Crossref XML Plugin). If not, you can confirm by logging into the <a href="https://doi.crossref.org/servlet/useragent">Admin tool</a> at Crossref with the role crendentials, <em>uwon</em> and the password. You will need to select the Submissions main tab, the Administration sub-tab and put ‘26090’ (which is the user id for the role <em>uwon</em>) in the Depositor ID text box. You can limit the search with a date range or just select ‘Search’ and it will return all submissions made on the role <em>uwon</em>. Remember, this role is organization-wide for Western Ontario, so you will see all submissions for the organization, not just for CJILS. The best way to find the files you want is to filter by date.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/admin_tool.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>For each DOI you deposit, you will see two submissions with the types ‘DOI references’ and XML metadata’. The XML metadata submission contains everything except the references, which are supplied separately in a resource-only deposit. In the example below, you can see two submission IDs on the left.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/submission_history.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>Selecting one of them will take you to a detail page where you can see the submission diagnostics message should you encounter any errors. You can find a troubleshooting guide on interpreting these messages in the <a href="https://www.crossref.org/documentation/register-maintain-records/verify-your-registration/troubleshooting-submissions/">Crossref Documentation</a>.</p>
 
 
 </section>

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "CJILS Copyediting and Layout Manual",
     "section": "",
-    "text": "Introduction\nWelcome to the official guide for supporting the editorial process of manuscripts submitted to the Canadian Journal of Information and Library Science (CJILS). This resource is designed to assist the journal editors, managers, and copyeditors editors in preparing CJILS articles for publication—ensuring clarity, consistency, and compliance with journal style.\nWhether you’re a seasoned professional or newly joining the CJILS editorial workflow, this guide provides step-by-step instructions, templates, checklists, and formatting support tailored to the specific needs of our journal.",
+    "text": "Introduction\nWelcome to the official guide for supporting the edito process of manuscripts submitted to the Canadian Journal of Information and Library Science (CJILS). This resource is designed to assist the journal editors, managers, and copyeditors editors in preparing CJILS articles for publication—ensuring clarity, consistency, and compliance with journal style.\nWhether you’re a seasoned language professional or newly joining the CJILS editorial workflow, this guide provides step-by-step instructions, templates, checklists, and formatting support tailored to the specific needs of our journal.",
     "crumbs": [
       "Introduction"
     ]
@@ -123,7 +123,7 @@
     "href": "ojs.html#resources",
     "title": "Open Journal System",
     "section": "",
-    "text": "Metadata Guide in OJS\n\nErudit Metadata Guide\n\n\n\nOJS 3.5 Manual\n\nPublication and post-publication\nUsing OJS for multiple languages",
+    "text": "Metadata Guide in OJS\n\nErudit Metadata Guide\n\n\n\nOJS 3.5 Manual\n\nPublication and post-publication\nUsing OJS for multiple languages\n\nUpdating metadata\nShould you need to update an published article, you will need to first unpublish the article, make the necessary adjustments, then republish. Once you have done this, you may need to push the metadata to Crossref. Go to DOI, then select the article, and under ‘Bulk Actions’ you can select ‘Deposit DOIs’. This will ask you for confirmation.\nYou should receive a confirmation email, (if your email is in the Settings for the Crossref XML Plugin). If not, you can confirm by logging into the Admin tool at Crossref with the role crendentials, uwon and the password. You will need to select the Submissions main tab, the Administration sub-tab and put ‘26090’ (which is the user id for the role uwon) in the Depositor ID text box. You can limit the search with a date range or just select ‘Search’ and it will return all submissions made on the role uwon. Remember, this role is organization-wide for Western Ontario, so you will see all submissions for the organization, not just for CJILS. The best way to find the files you want is to filter by date.\n\n\n\n\n\nFor each DOI you deposit, you will see two submissions with the types ‘DOI references’ and XML metadata’. The XML metadata submission contains everything except the references, which are supplied separately in a resource-only deposit. In the example below, you can see two submission IDs on the left.\n\n\n\n\n\nSelecting one of them will take you to a detail page where you can see the submission diagnostics message should you encounter any errors. You can find a troubleshooting guide on interpreting these messages in the Crossref Documentation.",
     "crumbs": [
       "Copyediting Process and Tools",
       "Open Journal System"
@@ -629,7 +629,7 @@
     "href": "tables.html#putting-it-all-together",
     "title": "Tables",
     "section": "Putting it all together",
-    "text": "Putting it all together\n\\begin{table}\n  \\caption{Distribution of CJILS publications by country}\n  \\label{test}\n  \\begin{tabular}{\n    &gt;{\\raggedright\\arraybackslash}p{5.25cm}\n    &gt;{\\raggedleft\\arraybackslash}p{1cm}\n    &gt;{\\raggedleft\\arraybackslash}p{1cm}\n  }\n  \\\\\n  \\toprule\n  \\multirow{2}[b]{*}[-1.75ex]{Country} & \\multicolumn{2}{r}{Publication\\textsuperscript{*}} \\\\\n  \\cline{2-3}\n  \\\\[-1.75ex]\n  & N & Pct. \\\\\n  \\midrule\n  Canada & 20 & 80\\% \\\\\n  United States & 5 & 20\\% \\\\\n  \\bottomrule\n  \\\\[-1.75ex]\n  \\multicolumn{3}{l}{\\textsuperscript{*}Only includes research articles.}\n  \\end{tabular}\n\\end{table}",
+    "text": "Putting it all together\nrmxxmmdphttps://www.crossref.org/documentation/register-maintain-records/verify-your-registration/troubleshooting-submissions/} \\begin{table}   \\caption{Distribution of CJILS publications by country}   \\label{test}   \\begin{tabular}{     &gt;{\\raggedright\\arraybackslash}p{5.25cm}     &gt;{\\raggedleft\\arraybackslash}p{1cm}     &gt;{\\raggedleft\\arraybackslash}p{1cm}   }   \\\\   \\toprule   \\multirow{2}[b]{*}[-1.75ex]{Country} & \\multicolumn{2}{r}{Publication\\textsuperscript{*}} \\\\   \\cline{2-3}   \\\\[-1.75ex]   & N & Pct. \\\\   \\midrule   Canada & 20 & 80\\% \\\\   United States & 5 & 20\\% \\\\   \\bottomrule   \\\\[-1.75ex]   \\multicolumn{3}{l}{\\textsuperscript{*}Only includes research articles.}   \\end{tabular} \\end{table}",
     "crumbs": [
       "LaTeX",
       "Tables"
